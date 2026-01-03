@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peta WaterMonitor</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/map.css">
+      <link rel="icon" type="image/x-icon" href="assets/img/iconWebsite.png">
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+
+<body>
+
+    <button class="menu-toggle-btn" onclick="toggleMenuVisible()">
+        <i class="ri-menu-4-line"></i>
+    </button>
+
+    <div class="floating-menu" id="mainMenu">
+        <i class="ri-close-line close-menu" onclick="toggleMenuVisible()"></i>
+
+        <div class="menu-title"><i class="ri-map-2-line"></i> Tipe Peta</div>
+        <div class="style-grid">
+            <div class="style-option active" onclick="switchBaseMap('normal', this)">
+                <i class="ri-sun-line"></i> <span>Normal</span>
+            </div>
+            <div class="style-option" onclick="switchBaseMap('dark', this)">
+                <i class="ri-moon-line"></i> <span>Malam</span>
+            </div>
+            <div class="style-option" onclick="switchBaseMap('satellite', this)">
+                <i class="ri-earth-line"></i> <span>Satelit</span>
+            </div>
+        </div>
+
+        <div class="menu-title"><i class="ri-layers-line"></i> Layer Data</div>
+
+        <div class="toggle-group">
+            <div class="toggle-header">
+                <span>🗺️ Batas Kecamatan</span>
+                <label class="switch">
+                    <input type="checkbox" checked onchange="toggleLayer('kecamatan', this)">
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </div>
+
+        <div class="toggle-group">
+            <div class="toggle-header">
+                <span>📍 Titik Sumber Air (Icon)</span>
+                <label class="switch">
+                    <input type="checkbox" checked onchange="toggleLayer('water', this)">
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </div>
+
+        <div class="toggle-group">
+            <div class="toggle-header">
+                <span>💧 Kualitas Fisik (Skor 1-5)</span>
+                <label class="switch">
+                    <input type="checkbox" onchange="toggleLayer('fisik', this)">
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <div class="legend" style="display: grid; grid-template-columns: 1fr 1fr; gap: 5px;">
+                <div class="legend-item"><span class="dot" style="background: #22c55e;"></span> 5 - Sgt Bagus</div>
+                <div class="legend-item"><span class="dot" style="background: #84cc16;"></span> 4 - Bagus</div>
+                <div class="legend-item"><span class="dot" style="background: #eab308;"></span> 3 - Cukup</div>
+                <div class="legend-item"><span class="dot" style="background: #f97316;"></span> 2 - Buruk</div>
+                <div class="legend-item"><span class="dot" style="background: #ef4444;"></span> 1 - Sgt Buruk</div>
+            </div>
+        </div>
+
+        <div class="toggle-group">
+            <div class="toggle-header">
+                <span>💧 Kualitas Fisik</span>
+                <label class="switch">
+                    <input type="checkbox" onchange="toggleLayer('fisik', this)">
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <div class="legend">
+                <div class="legend-item"><span class="dot bg-blue"></span> Jernih</div>
+                <div class="legend-item"><span class="dot bg-orange"></span> Keruh/Bau</div>
+            </div>
+        </div>
+
+        <div class="toggle-group">
+            <div class="toggle-header">
+                <span>🧪 pH Air</span>
+                <label class="switch">
+                    <input type="checkbox" onchange="toggleLayer('ph', this)">
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <div class="legend">
+                <div class="legend-item"><span class="dot bg-red"></span> Asam</div>
+                <div class="legend-item"><span class="dot bg-green"></span> Netral</div>
+                <div class="legend-item"><span class="dot bg-purple"></span> Basa</div>
+            </div>
+        </div>
+
+        <div class="toggle-group">
+            <div class="toggle-header">
+                <span>🕳️ Jenis Sumur</span>
+                <label class="switch">
+                    <input type="checkbox" onchange="toggleLayer('jenis', this)">
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <div class="legend">
+                <div class="legend-item"><span class="dot bg-navy"></span> Bor</div>
+                <div class="legend-item"><span class="dot bg-yellow"></span> Gali</div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="map"></div>
+    <script src="js/map.js"></script>
+
+</body>
+
+</html>

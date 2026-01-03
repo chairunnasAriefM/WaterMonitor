@@ -1,0 +1,1788 @@
+{
+    "displayFieldName": "",
+    "fieldAliases": {
+        "X": "X",
+        "Y": "Y",
+        "Jenis Sumber Air": "Jenis Sumber Air",
+        "Jara ke septic tank / limbah": "Jara ke septic tank / limbah",
+        "Skor air dari rasa, warna, dan bau": "Skor air dari rasa, warna, dan bau",
+        "Ph air": "Ph air",
+        "Jumlah anggota keluarga mengalami penyakit kulit": "Jumlah anggota keluarga mengalami penyakit kulit",
+        "Freuensi penggunaan air sumur": "Freuensi penggunaan air sumur",
+        "Foto sumber air": "Foto sumber air"
+    },
+    "geometryType": "esriGeometryPoint",
+    "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+    },
+    "fields": [
+        {
+            "name": "X",
+            "type": "esriFieldTypeDouble",
+            "alias": "X"
+        },
+        {
+            "name": "Y",
+            "type": "esriFieldTypeDouble",
+            "alias": "Y"
+        },
+        {
+            "name": "Jenis Sumber Air",
+            "type": "esriFieldTypeString",
+            "alias": "Jenis Sumber Air",
+            "length": 255
+        },
+        {
+            "name": "Jara ke septic tank / limbah",
+            "type": "esriFieldTypeDouble",
+            "alias": "Jara ke septic tank / limbah"
+        },
+        {
+            "name": "Skor air dari rasa, warna, dan bau",
+            "type": "esriFieldTypeDouble",
+            "alias": "Skor air dari rasa, warna, dan bau"
+        },
+        {
+            "name": "Ph air",
+            "type": "esriFieldTypeDouble",
+            "alias": "Ph air"
+        },
+        {
+            "name": "Jumlah anggota keluarga mengalami penyakit kulit",
+            "type": "esriFieldTypeDouble",
+            "alias": "Jumlah anggota keluarga mengalami penyakit kulit"
+        },
+        {
+            "name": "Freuensi penggunaan air sumur",
+            "type": "esriFieldTypeString",
+            "alias": "Freuensi penggunaan air sumur",
+            "length": 255
+        },
+        {
+            "name": "Foto sumber air",
+            "type": "esriFieldTypeString",
+            "alias": "Foto sumber air",
+            "length": 255
+        }
+    ],
+    "features": [
+        {
+            "attributes": {
+                "X": 0.587968,
+                "Y": 101.406425,
+                "Jenis Sumber Air": "Sumur Gali",
+                "Jara ke septic tank / limbah": 40.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 5.4,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1OglXTtKKWq6zOX4ttKwXIO0awhXo7QwZ"
+            },
+            "geometry": {
+                "x": 0.58796800000000005,
+                "y": 101.406425
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.561747,
+                "Y": 101.421757,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 5.0,
+                "Skor air dari rasa, warna, dan bau": 3.0,
+                "Ph air": 8.5,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1c67K7nn9wUmsTKwacrdSXMLfgy3g2hHQ"
+            },
+            "geometry": {
+                "x": 0.561747,
+                "y": 101.421757
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.571107,
+                "Y": 101.466399,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 12.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 8.8,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=10xfF9sOPPjlka2no95Lc_HC5IyZNZjAV"
+            },
+            "geometry": {
+                "x": 0.57110700000000003,
+                "y": 101.466399
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.571058,
+                "Y": 101.466611,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 4.0,
+                "Skor air dari rasa, warna, dan bau": 3.0,
+                "Ph air": 8.92,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1X2J6-pMX6iCs-nIinf1SXDrRdMDpiooG"
+            },
+            "geometry": {
+                "x": 0.57105799999999995,
+                "y": 101.466611
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.571079,
+                "Y": 101.465893,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 7.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 7.7,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1TW5ZPPPWwhv8youetdKfrJbW_ELTM-SA"
+            },
+            "geometry": {
+                "x": 0.571079,
+                "y": 101.46589299999999
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.574206,
+                "Y": 101.421267,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 5.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 8.6,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1xst4qesLfiVOJE16x6c-dfDtMlFBHxQt"
+            },
+            "geometry": {
+                "x": 0.57420599999999999,
+                "y": 101.421267
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.557657,
+                "Y": 101.431808,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 20.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 9.0,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1u3PUJ2am9pfgozFVy4SIkHd7IEDP4WSX"
+            },
+            "geometry": {
+                "x": 0.55765699999999996,
+                "y": 101.431808
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.55759,
+                "Y": 101.431725,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 10.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 8.1,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1jPlTURJevBVpqo3xnJ_5IvshCuOF4-VX"
+            },
+            "geometry": {
+                "x": 0.55759000000000003,
+                "y": 101.431725
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.570268,
+                "Y": 101.412233,
+                "Jenis Sumber Air": "Sumur Gali",
+                "Jara ke septic tank / limbah": 20.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 5.1,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1YnVJ7nQLn_Dpk1nhBkwpQF3a2MnFjeYt"
+            },
+            "geometry": {
+                "x": 0.570268,
+                "y": 101.412233
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.571445,
+                "Y": 101.415585,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 10.0,
+                "Skor air dari rasa, warna, dan bau": 5.0,
+                "Ph air": 5.22,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1NBHVsh0J1nEQdr9S5bouCQ3EUgso_L5N"
+            },
+            "geometry": {
+                "x": 0.57144499999999998,
+                "y": 101.41558499999999
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.538657,
+                "Y": 101.421391,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 40.0,
+                "Skor air dari rasa, warna, dan bau": 3.0,
+                "Ph air": 7.0,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1_cELm0nu5Kp20TRFzrd_UwJHIrya8HIw"
+            },
+            "geometry": {
+                "x": 0.53865700000000005,
+                "y": 101.421391
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.534821,
+                "Y": 101.425994,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 4.0,
+                "Skor air dari rasa, warna, dan bau": 2.0,
+                "Ph air": 5.5,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1xlP1rNx3zGHN__-g77F-yf3MuUVznND6"
+            },
+            "geometry": {
+                "x": 0.53482099999999999,
+                "y": 101.425994
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.540566,
+                "Y": 101.411068,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 5.0,
+                "Skor air dari rasa, warna, dan bau": 2.0,
+                "Ph air": 7.68,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 1.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1rdhv62PiuLdMls56AGUnr2uD1wvbMZv2"
+            },
+            "geometry": {
+                "x": 0.54056599999999999,
+                "y": 101.411068
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.537495,
+                "Y": 101.433134,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 5.0,
+                "Skor air dari rasa, warna, dan bau": 3.0,
+                "Ph air": 5.86,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1PYTzsdudBe3ZC4UUqFNC628gaGB-ExKq"
+            },
+            "geometry": {
+                "x": 0.53749499999999995,
+                "y": 101.433134
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.538492,
+                "Y": 101.420861,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 12.0,
+                "Skor air dari rasa, warna, dan bau": 2.0,
+                "Ph air": 6.9,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1ML_5myb3LS4nBRm18qBVD7Sgy8hcMm8S"
+            },
+            "geometry": {
+                "x": 0.53849199999999997,
+                "y": 101.420861
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.538504,
+                "Y": 101.420811,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 20.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 8.15,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=16BLqNP2UU-hr0JbkPpyzFlYEXfRcSB4a"
+            },
+            "geometry": {
+                "x": 0.53850399999999998,
+                "y": 101.420811
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.538513,
+                "Y": 101.420868,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 20.0,
+                "Skor air dari rasa, warna, dan bau": 3.0,
+                "Ph air": 7.3,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1mUrBYk_cVYp6sPZh6pPVrZj4tZYFYW25"
+            },
+            "geometry": {
+                "x": 0.53851300000000002,
+                "y": 101.420868
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.538432,
+                "Y": 101.421098,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 25.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 7.68,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1dxCEaYuAOepcwE1vf2wboeKY2DIFYazJ"
+            },
+            "geometry": {
+                "x": 0.53843200000000002,
+                "y": 101.421098
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.538555,
+                "Y": 101.420761,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 25.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 8.0,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1nDb9NeYgks7gs9d5nS8vLPImpYjfZcRE"
+            },
+            "geometry": {
+                "x": 0.53855500000000001,
+                "y": 101.420761
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.540448,
+                "Y": 101.419955,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 10.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 5.8,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1nYW4N3BNeL1mbui3UavoMZTrh2O9KHBP"
+            },
+            "geometry": {
+                "x": 0.54044800000000004,
+                "y": 101.419955
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.540641,
+                "Y": 101.419934,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 10.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 4.85,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1KhAc_QnPGsLuM44oi99HJ2_B9U9h504u"
+            },
+            "geometry": {
+                "x": 0.54064100000000004,
+                "y": 101.419934
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.54075,
+                "Y": 101.419858,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 10.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 6.04,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1C3QR4nLR_2pKu5Z-RpwNMA-qQQ2Y7_0u"
+            },
+            "geometry": {
+                "x": 0.54074999999999995,
+                "y": 101.419858
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.536074,
+                "Y": 101.421311,
+                "Jenis Sumber Air": "PDAM",
+                "Jara ke septic tank / limbah": 25.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 7.6,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1mjhhqug4QJSX7wCQWWW2FOH_g1eI-smu"
+            },
+            "geometry": {
+                "x": 0.53607400000000005,
+                "y": 101.421311
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.536455,
+                "Y": 101.421367,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 25.0,
+                "Skor air dari rasa, warna, dan bau": 5.0,
+                "Ph air": 7.15,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1G_UuaWTYYc8KdY3NnPCYS2UTgBg8-Khe"
+            },
+            "geometry": {
+                "x": 0.53645500000000002,
+                "y": 101.421367
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.536932,
+                "Y": 101.420858,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 30.0,
+                "Skor air dari rasa, warna, dan bau": 5.0,
+                "Ph air": 8.73,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1Re_4p0AAjIgtpwKThDDkkdFswer0uxcy"
+            },
+            "geometry": {
+                "x": 0.53693199999999996,
+                "y": 101.420858
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.538504,
+                "Y": 101.423384,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 15.0,
+                "Skor air dari rasa, warna, dan bau": 3.0,
+                "Ph air": 6.85,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1MFOPsN17WThV0y56CM-fFcvhPn1ls1_B"
+            },
+            "geometry": {
+                "x": 0.53850399999999998,
+                "y": 101.423384
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.588105,
+                "Y": 101.406827,
+                "Jenis Sumber Air": "Sumur Gali",
+                "Jara ke septic tank / limbah": 45.0,
+                "Skor air dari rasa, warna, dan bau": 3.0,
+                "Ph air": 6.7,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 2.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1iFU4xpLfVTDfD5zcqxnvyc8Eu8Ms9aZl"
+            },
+            "geometry": {
+                "x": 0.58810499999999999,
+                "y": 101.40682700000001
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.587966,
+                "Y": 101.406785,
+                "Jenis Sumber Air": "Sumur Gali",
+                "Jara ke septic tank / limbah": 45.0,
+                "Skor air dari rasa, warna, dan bau": 3.0,
+                "Ph air": 5.6,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1LgchQjEKBkqzxPwMv5uN1OAUvcbTzAeN"
+            },
+            "geometry": {
+                "x": 0.58796599999999999,
+                "y": 101.406785
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.587973,
+                "Y": 101.406703,
+                "Jenis Sumber Air": "Sumur Gali",
+                "Jara ke septic tank / limbah": 40.0,
+                "Skor air dari rasa, warna, dan bau": 5.0,
+                "Ph air": 7.3,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1Jw2l_2oeMmyi_wP973zERoggSs-XeXl6"
+            },
+            "geometry": {
+                "x": 0.58797299999999997,
+                "y": 101.40670299999999
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.588068,
+                "Y": 101.406891,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 45.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 5.1,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 3.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1EWI8Y96z3p2A_boeGT-B8_19nAnbqGVB"
+            },
+            "geometry": {
+                "x": 0.58806800000000004,
+                "y": 101.406891
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.587927,
+                "Y": 101.406768,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 30.0,
+                "Skor air dari rasa, warna, dan bau": 2.0,
+                "Ph air": 5.9,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1a2Gz26pWtQ4viBjXZUF_zij8dIQKkX4B"
+            },
+            "geometry": {
+                "x": 0.58792699999999998,
+                "y": 101.406768
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.568807,
+                "Y": 101.406877,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 15.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 5.68,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 1.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1-5K4UmwFQbv2QwS4HnqLNjhFbwxd2GvT"
+            },
+            "geometry": {
+                "x": 0.56880699999999995,
+                "y": 101.40687699999999
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.590587,
+                "Y": 101.406504,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 20.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 5.6,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1l7LIixOzhtOvGuVc5iYihIFIb7GHJi3o"
+            },
+            "geometry": {
+                "x": 0.59058699999999997,
+                "y": 101.406504
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.589968,
+                "Y": 101.405553,
+                "Jenis Sumber Air": "Sumur Gali",
+                "Jara ke septic tank / limbah": 15.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 5.3,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1Ias2GqjWkCoH9SFLhK3IVD1rmcdKtVkp"
+            },
+            "geometry": {
+                "x": 0.58996800000000005,
+                "y": 101.405553
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.590092,
+                "Y": 101.40565,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 15.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 5.9,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1GJ-awv5LuJQbx6EAc7oQSKJI-a2y2BEb"
+            },
+            "geometry": {
+                "x": 0.59009199999999995,
+                "y": 101.40564999999999
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.590006,
+                "Y": 101.405581,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 20.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 5.6,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1Mk42k_HWFHNqcJLYnkdfVEE6jo4bnmke"
+            },
+            "geometry": {
+                "x": 0.59000600000000003,
+                "y": 101.405581
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.58491,
+                "Y": 101.406864,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 20.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 7.2,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=13Dc5YYOHfwspSvCYGkqIOsblb7HIx6cb"
+            },
+            "geometry": {
+                "x": 0.58491000000000004,
+                "y": 101.406864
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.584702,
+                "Y": 101.40691,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 15.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 7.5,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1-01oQi82Gp114lkpjgQY6QjD0r19w19o"
+            },
+            "geometry": {
+                "x": 0.58470200000000006,
+                "y": 101.40691
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.584722,
+                "Y": 101.406801,
+                "Jenis Sumber Air": "Sumur Gali",
+                "Jara ke septic tank / limbah": 15.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 5.6,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1IlTa4Rd9-ilU3rGAIkCWw8Aye4W-KhdT"
+            },
+            "geometry": {
+                "x": 0.58472199999999996,
+                "y": 101.406801
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.584985,
+                "Y": 101.407118,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 10.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 7.1,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1r12E2nXCrRq5w0--CNtte4vUkOhlnQui"
+            },
+            "geometry": {
+                "x": 0.58498499999999998,
+                "y": 101.407118
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.584599,
+                "Y": 101.407307,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 10.0,
+                "Skor air dari rasa, warna, dan bau": 3.0,
+                "Ph air": 7.3,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 2.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1aQq238cnAznkZX4CS-CGEVGSxLaHy-ZB"
+            },
+            "geometry": {
+                "x": 0.58459899999999998,
+                "y": 101.407307
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.584536,
+                "Y": 101.407511,
+                "Jenis Sumber Air": "Sumur Gali",
+                "Jara ke septic tank / limbah": 5.0,
+                "Skor air dari rasa, warna, dan bau": 3.0,
+                "Ph air": 6.2,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=15xExXOw-rKQTbTfm4Yzhi6G8j8sUH2SI"
+            },
+            "geometry": {
+                "x": 0.58453599999999994,
+                "y": 101.407511
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.584458,
+                "Y": 101.407252,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 10.0,
+                "Skor air dari rasa, warna, dan bau": 3.0,
+                "Ph air": 7.37,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=17uVeH_sGG0hw6E7qiC5UwPAVX1W-U2EQ"
+            },
+            "geometry": {
+                "x": 0.58445800000000003,
+                "y": 101.407252
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.568066,
+                "Y": 101.423069,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 10.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 8.19,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1n_lFfCcdwGljJBq5Bg_FbqLVDstKx-ZG"
+            },
+            "geometry": {
+                "x": 0.56806599999999996,
+                "y": 101.423069
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.566524,
+                "Y": 101.424502,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 6.0,
+                "Skor air dari rasa, warna, dan bau": 3.0,
+                "Ph air": 8.3,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1G06SEwitkTGTjFNt8vTy9aFtcRTSIng3"
+            },
+            "geometry": {
+                "x": 0.56652400000000003,
+                "y": 101.424502
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.568275,
+                "Y": 101.42509,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 12.0,
+                "Skor air dari rasa, warna, dan bau": 5.0,
+                "Ph air": 7.93,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1TPpsdAqhMk_yo0c-NC6zbQEGdPec_66v"
+            },
+            "geometry": {
+                "x": 0.56827499999999997,
+                "y": 101.42509
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.574719,
+                "Y": 101.421715,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 5.0,
+                "Skor air dari rasa, warna, dan bau": 3.0,
+                "Ph air": 8.3,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=15NIsPUX72mUXWbhzkW5G_nANDx4YBqc7"
+            },
+            "geometry": {
+                "x": 0.57471899999999998,
+                "y": 101.42171500000001
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.57261,
+                "Y": 101.42108,
+                "Jenis Sumber Air": "Sumur Gali",
+                "Jara ke septic tank / limbah": 10.0,
+                "Skor air dari rasa, warna, dan bau": 3.0,
+                "Ph air": 7.5,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1elczKoMEufcsxgI3HgSP03hDBiS_Fbz9"
+            },
+            "geometry": {
+                "x": 0.57260999999999995,
+                "y": 101.42108
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.568303,
+                "Y": 101.425448,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 3.0,
+                "Skor air dari rasa, warna, dan bau": 3.0,
+                "Ph air": 8.27,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=14HdrgLNeez-s4fK0WZSKNGQrJHtvVoaW"
+            },
+            "geometry": {
+                "x": 0.568303,
+                "y": 101.425448
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.567398,
+                "Y": 101.42663,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 12.0,
+                "Skor air dari rasa, warna, dan bau": 3.0,
+                "Ph air": 8.17,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1SG2kKk1tv01il6LJV5avSUGhsaTaJeDG"
+            },
+            "geometry": {
+                "x": 0.56739799999999996,
+                "y": 101.42663
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.569766,
+                "Y": 101.467655,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 13.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 6.27,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1rd7WTNuHy9EKgugQMpDtr4-RA1ywHLRs"
+            },
+            "geometry": {
+                "x": 0.56976599999999999,
+                "y": 101.46765499999999
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.562449,
+                "Y": 101.420962,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 5.0,
+                "Skor air dari rasa, warna, dan bau": 3.0,
+                "Ph air": 9.13,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1WhFJihvKXeH504D9PzqkSxRVf3UuUtdf"
+            },
+            "geometry": {
+                "x": 0.56244899999999998,
+                "y": 101.420962
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.538816,
+                "Y": 101.458408,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 10.0,
+                "Skor air dari rasa, warna, dan bau": 5.0,
+                "Ph air": 5.18,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=12U8Nkqh_FmAlIILHjGhdh3R4w_S1ipE7"
+            },
+            "geometry": {
+                "x": 0.53881599999999996,
+                "y": 101.45840800000001
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.538874,
+                "Y": 101.458119,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 20.0,
+                "Skor air dari rasa, warna, dan bau": 3.0,
+                "Ph air": 4.5,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1qoE222QC47awUMK4l3OA9cLk5W0UCK4-"
+            },
+            "geometry": {
+                "x": 0.58874000000000004,
+                "y": 101.458119
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.538858,
+                "Y": 101.458413,
+                "Jenis Sumber Air": "Sumur Gali",
+                "Jara ke septic tank / limbah": 7.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 5.7,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1aMYwnv1RPVnDeXQDlA3056EmRSDsHsp7"
+            },
+            "geometry": {
+                "x": 0.53885799999999995,
+                "y": 101.45841299999999
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.539116,
+                "Y": 101.458527,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 10.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 3.88,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1vrlG3CeP6KRH6WTzWolrATHyCScC7Xr9"
+            },
+            "geometry": {
+                "x": 0.53911600000000004,
+                "y": 101.458527
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.534806,
+                "Y": 101.461363,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 17.0,
+                "Skor air dari rasa, warna, dan bau": 5.0,
+                "Ph air": 3.78,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1HnlSKxuLoXUKUdl6VW_E1gQOF4n_8M8o"
+            },
+            "geometry": {
+                "x": 0.534806,
+                "y": 101.46136300000001
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.535498,
+                "Y": 101.463572,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 20.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 4.55,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1cybvcMEQkAjqvJh4jzLSZrPgjkof_2Wh"
+            },
+            "geometry": {
+                "x": 0.53549800000000003,
+                "y": 101.463572
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.535758,
+                "Y": 101.463501,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 10.0,
+                "Skor air dari rasa, warna, dan bau": 3.0,
+                "Ph air": 3.99,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1MEPEiSG-9B6vM3_3Ytx28wyVoduufyrE"
+            },
+            "geometry": {
+                "x": 0.53575799999999996,
+                "y": 101.46350099999999
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.530648,
+                "Y": 101.464988,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 20.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 3.95,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1hBioH7eoXpqCpxmPwzyjvE6847G3Jsue"
+            },
+            "geometry": {
+                "x": 0.53064800000000001,
+                "y": 101.46498800000001
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.526339,
+                "Y": 101.47929,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 25.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 4.45,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1OiJpzKz5LjR8VVzD_mB-Rb8O91kOQ8eA"
+            },
+            "geometry": {
+                "x": 0.526339,
+                "y": 101.47929000000001
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.534873,
+                "Y": 101.461445,
+                "Jenis Sumber Air": "Sumur Gali",
+                "Jara ke septic tank / limbah": 10.0,
+                "Skor air dari rasa, warna, dan bau": 3.0,
+                "Ph air": 3.95,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1CWrPzj6milawTM86HhFH0__Yc57HJxyD"
+            },
+            "geometry": {
+                "x": 0.53487300000000004,
+                "y": 101.461445
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.527854,
+                "Y": 101.42814,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 22.0,
+                "Skor air dari rasa, warna, dan bau": 5.0,
+                "Ph air": 7.48,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1mXRWoumnGt3nqbqsnRua1aWST_J6njuu"
+            },
+            "geometry": {
+                "x": 0.52785400000000005,
+                "y": 101.42814
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.438995,
+                "Y": 101.378486,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 2.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 7.26,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1Ux9o9vl7-cxgoy4J9fjH_YbrK02bOlgD"
+            },
+            "geometry": {
+                "x": 0.43899500000000002,
+                "y": 101.378486
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.539098,
+                "Y": 101.421369,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 10.0,
+                "Skor air dari rasa, warna, dan bau": 5.0,
+                "Ph air": 9.05,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1tx7VSTn7qw5rSqrUKsIqav-bcaKKc8oi"
+            },
+            "geometry": {
+                "x": 0.53909799999999997,
+                "y": 101.421369
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.514082,
+                "Y": 101.474987,
+                "Jenis Sumber Air": "Sumur Gali",
+                "Jara ke septic tank / limbah": 2.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 8.07,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1l3g2mzpYKWbHsBYeHtP-bxMYto_1X6ee"
+            },
+            "geometry": {
+                "x": 0.51408200000000004,
+                "y": 101.474987
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.538699,
+                "Y": 101.481417,
+                "Jenis Sumber Air": "Sumur Gali",
+                "Jara ke septic tank / limbah": 20.0,
+                "Skor air dari rasa, warna, dan bau": 5.0,
+                "Ph air": 7.65,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1E5smscoasA_SWAhWmtbQXib4r1kso46e"
+            },
+            "geometry": {
+                "x": 0.53869900000000004,
+                "y": 101.48141699999999
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.53151,
+                "Y": 101.438594,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 15.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 7.8,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1MsZ6nt_wNkT4ARw6dMhZ4a0CDWE-iWaZ"
+            },
+            "geometry": {
+                "x": 0.53151000000000004,
+                "y": 101.43859399999999
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.530756,
+                "Y": 101.410229,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 5.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 6.0,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1muPkxxhV-ai8VkDhoW5-4lbCkBCAPPa9"
+            },
+            "geometry": {
+                "x": 0.53075600000000001,
+                "y": 101.410229
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.532155,
+                "Y": 101.409601,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 5.0,
+                "Skor air dari rasa, warna, dan bau": 2.0,
+                "Ph air": 8.39,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1FZ-XcGIJg8n1cJ3py-9fbFovEFWB-OlJ"
+            },
+            "geometry": {
+                "x": 0.53215500000000004,
+                "y": 101.40960099999999
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.543273,
+                "Y": 101.412541,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 2.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 5.7,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1v-K_MlgnaIpN2PvBVILqfHaGX0mSPVKv"
+            },
+            "geometry": {
+                "x": 0.54327300000000001,
+                "y": 101.412541
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.545333,
+                "Y": 101.413266,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 11.0,
+                "Skor air dari rasa, warna, dan bau": 5.0,
+                "Ph air": 4.68,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1hZ94BzlFjTfZh6gskPgl5xDWHYVgWzEU"
+            },
+            "geometry": {
+                "x": 0.54533299999999996,
+                "y": 101.41326599999999
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.54534,
+                "Y": 101.413216,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 10.0,
+                "Skor air dari rasa, warna, dan bau": 5.0,
+                "Ph air": 4.74,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1qe3yQIJRBPYB2qsFA0Yx1x2nWNU2TUQD"
+            },
+            "geometry": {
+                "x": 0.54534000000000005,
+                "y": 101.41321600000001
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.537984,
+                "Y": 101.422053,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 15.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 5.54,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1paDmaH37pxxto2Sh2eDJTkFQIFqtny_s"
+            },
+            "geometry": {
+                "x": 0.53798400000000002,
+                "y": 101.42205300000001
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.540335,
+                "Y": 101.421723,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 10.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 6.04,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1bmkbUg194_YoWLsGmiHleiMcpnwHx1oS"
+            },
+            "geometry": {
+                "x": 0.54033500000000001,
+                "y": 101.421723
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.543455,
+                "Y": 101.417648,
+                "Jenis Sumber Air": "Sumur Gali",
+                "Jara ke septic tank / limbah": 5.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 7.64,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=196x3WGxEiKzcuM0yJsDFfMzb9Hzp59iq"
+            },
+            "geometry": {
+                "x": 0.54345500000000002,
+                "y": 101.417648
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.518059,
+                "Y": 101.406416,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 10.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 7.7,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1SC_Sto9NgDVenuOg_WqZNaXM7gCsmpU8"
+            },
+            "geometry": {
+                "x": 0.51805900000000005,
+                "y": 101.40641599999999
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.466073,
+                "Y": 101.409486,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 12.0,
+                "Skor air dari rasa, warna, dan bau": 5.0,
+                "Ph air": 7.68,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1KwQam7U5p-cHlVrncZoq9D08QPwjhnwM"
+            },
+            "geometry": {
+                "x": 0.46607300000000002,
+                "y": 101.409486
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.556528,
+                "Y": 101.401372,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 100.0,
+                "Skor air dari rasa, warna, dan bau": 3.0,
+                "Ph air": 9.32,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1mJO0rOB2jDcBHHeQFaUzqeRb6ci9Yfyo"
+            },
+            "geometry": {
+                "x": 0.55652800000000002,
+                "y": 101.40137199999999
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.546164,
+                "Y": 101.409598,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 8.0,
+                "Skor air dari rasa, warna, dan bau": 3.0,
+                "Ph air": 7.99,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1tvwMKfyLw2kt61xQ0z-IVnSdEMhLcF_d"
+            },
+            "geometry": {
+                "x": 0.54616399999999998,
+                "y": 101.409598
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.540714,
+                "Y": 101.414524,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 40.0,
+                "Skor air dari rasa, warna, dan bau": 5.0,
+                "Ph air": 8.39,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1U38m8oKwYL3JOaGceQkIxOryBXiCwF7Q"
+            },
+            "geometry": {
+                "x": 0.54071400000000003,
+                "y": 101.414524
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.547422,
+                "Y": 101.405592,
+                "Jenis Sumber Air": "PDAM",
+                "Jara ke septic tank / limbah": 15.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 8.33,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1ApH_iEw21JyGeKYnQO-7toqbRwg60jHR"
+            },
+            "geometry": {
+                "x": 0.54742199999999996,
+                "y": 101.405592
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.547366,
+                "Y": 101.405625,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 10.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 8.0,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1Uu4llv2NBX7MQOM5Vnsw8FIeVuRvtuRV"
+            },
+            "geometry": {
+                "x": 0.54736600000000002,
+                "y": 101.405625
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.547343,
+                "Y": 101.405619,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 12.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 8.02,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1QmJoirciL_DPG0QbfnngfD4ciYNv0NjM"
+            },
+            "geometry": {
+                "x": 0.54734300000000002,
+                "y": 101.405619
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.547432,
+                "Y": 101.405594,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 9.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 7.93,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1PcXjomZb7noom4fl4j3to36WvkJX291_"
+            },
+            "geometry": {
+                "x": 0.54743200000000003,
+                "y": 101.40559399999999
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.547506,
+                "Y": 101.405641,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 13.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 8.12,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1UbS5xQIA-O7dmTdxd6mkM-LpeKxNv_q2"
+            },
+            "geometry": {
+                "x": 0.54750600000000005,
+                "y": 101.405641
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.546752,
+                "Y": 101.406009,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 15.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 8.02,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1de3-qdcrvCtS_XmUotRMq6QM8N4oDMh_"
+            },
+            "geometry": {
+                "x": 0.54675200000000002,
+                "y": 101.406009
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.546742,
+                "Y": 101.406165,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 15.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 8.36,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1duf0VDsdaLKaLGEbTj2GU5eoIWINFLu7"
+            },
+            "geometry": {
+                "x": 0.54674199999999995,
+                "y": 101.406165
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.547086,
+                "Y": 101.406144,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 13.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 7.88,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1VrK75dv9GyiR1CpUTJyg6MySwUw5WByc"
+            },
+            "geometry": {
+                "x": 0.54708599999999996,
+                "y": 101.406144
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.546943,
+                "Y": 101.405888,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 30.0,
+                "Skor air dari rasa, warna, dan bau": 3.0,
+                "Ph air": 7.53,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1J1OCNtZokn7JxiGa2eiwIg70yxvll3yF"
+            },
+            "geometry": {
+                "x": 0.54694299999999996,
+                "y": 101.405888
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.547155,
+                "Y": 101.405853,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 13.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 8.1,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1vBh1WB2YxGMtlzUzzFDSjT74YjpITWhm"
+            },
+            "geometry": {
+                "x": 0.54715499999999995,
+                "y": 101.40585299999999
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.518854,
+                "Y": 101.396877,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 20.0,
+                "Skor air dari rasa, warna, dan bau": 2.0,
+                "Ph air": 5.5,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1tGMoVvCucF6D5xIRasKbkcBawGvrZCv7"
+            },
+            "geometry": {
+                "x": 0.51885400000000004,
+                "y": 101.396877
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.526202,
+                "Y": 101.440156,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 15.0,
+                "Skor air dari rasa, warna, dan bau": 5.0,
+                "Ph air": 6.4,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1zCrTG8X3hhSc5aj4LdTfyNs1MoqgW3Oy"
+            },
+            "geometry": {
+                "x": 0.52620199999999995,
+                "y": 101.440156
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.538394,
+                "Y": 101.421349,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 25.0,
+                "Skor air dari rasa, warna, dan bau": 4.0,
+                "Ph air": 7.91,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1nNQksb1qPIGq8y4lTo1uoZqgldRO7HaN"
+            },
+            "geometry": {
+                "x": 0.53839400000000004,
+                "y": 101.42134900000001
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.538419,
+                "Y": 101.421288,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 25.0,
+                "Skor air dari rasa, warna, dan bau": 5.0,
+                "Ph air": 8.11,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1rTvno2pIDG_8UzEKH95hoXfuFeXdKPIz"
+            },
+            "geometry": {
+                "x": 0.53841899999999998,
+                "y": 101.421288
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.53829,
+                "Y": 101.422436,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 10.0,
+                "Skor air dari rasa, warna, dan bau": 3.0,
+                "Ph air": 5.85,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1X4vCSkpmHRy_nhd_PBomnFoXeLdTjbIo"
+            },
+            "geometry": {
+                "x": 0.53829000000000005,
+                "y": 101.422436
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.538323,
+                "Y": 101.423065,
+                "Jenis Sumber Air": "Sumur Gali",
+                "Jara ke septic tank / limbah": 8.0,
+                "Skor air dari rasa, warna, dan bau": 3.0,
+                "Ph air": 5.6,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1UTvdRiSEniuBRG7OITrXvQwObNchMW_C"
+            },
+            "geometry": {
+                "x": 0.538323,
+                "y": 101.42306499999999
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.538705,
+                "Y": 101.42371,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 15.0,
+                "Skor air dari rasa, warna, dan bau": 3.0,
+                "Ph air": 7.15,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1IhbzMeUABxaaDb3keDy57kJCekjW3R1_"
+            },
+            "geometry": {
+                "x": 0.53870499999999999,
+                "y": 101.42371
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.537608,
+                "Y": 101.424634,
+                "Jenis Sumber Air": "Sumur Gali",
+                "Jara ke septic tank / limbah": 5.0,
+                "Skor air dari rasa, warna, dan bau": 2.0,
+                "Ph air": 4.35,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=18Gq9FTVqqCwEHZIOr8vHGfbOfmuqIw2F"
+            },
+            "geometry": {
+                "x": 0.53760799999999997,
+                "y": 101.424634
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.538891,
+                "Y": 101.421383,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 30.0,
+                "Skor air dari rasa, warna, dan bau": 5.0,
+                "Ph air": 7.27,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1w7qp2tnHrqZNbXSefZu-AvA0k9vfPtKV"
+            },
+            "geometry": {
+                "x": 0.53889100000000001,
+                "y": 101.42138300000001
+            }
+        },
+        {
+            "attributes": {
+                "X": 0.538691,
+                "Y": 101.421293,
+                "Jenis Sumber Air": "Sumur Bor",
+                "Jara ke septic tank / limbah": 30.0,
+                "Skor air dari rasa, warna, dan bau": 5.0,
+                "Ph air": 7.78,
+                "Jumlah anggota keluarga mengalami penyakit kulit": 0.0,
+                "Freuensi penggunaan air sumur": null,
+                "Foto sumber air": "https://drive.google.com/open?id=1T8DdsyhL4-cek_-r3an391dIJKwOWjk1"
+            },
+            "geometry": {
+                "x": 0.53869100000000003,
+                "y": 101.42129300000001
+            }
+        }
+    ]
+}

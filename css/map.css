@@ -1,0 +1,133 @@
+/* --- RESET & BASIC --- */
+body, html { margin: 0; padding: 0; height: 100%; font-family: 'Poppins', sans-serif; overflow: hidden; }
+#map { height: 100%; width: 100%; z-index: 1; }
+
+/* --- FLOATING MENU (KOTAK PENGATURAN) --- */
+.floating-menu {
+    position: absolute;
+    top: 20px; right: 20px;
+    width: 280px;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    z-index: 1000;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+/* State ketika menu disembunyikan */
+.floating-menu.hidden {
+    transform: translateX(120%);
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Tombol Buka/Tutup Menu */
+.menu-toggle-btn {
+    position: absolute;
+    top: 20px; right: 20px;
+    background: white;
+    border: none;
+    width: 45px; height: 45px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    z-index: 999; /* Di bawah menu tapi di atas peta */
+    cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 20px; color: #333;
+    transition: all 0.2s;
+}
+
+.menu-toggle-btn:hover { background: #f8fafc; transform: scale(1.05); }
+
+/* Tombol Close di dalam menu */
+.close-menu {
+    position: absolute; top: 15px; right: 15px;
+    cursor: pointer; color: #999; font-size: 20px;
+}
+.close-menu:hover { color: #333; }
+
+/* Judul Menu */
+.menu-title { font-weight: 700; font-size: 14px; color: #1e293b; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+
+/* --- STYLE GRID (Normal/Dark/Satelit) --- */
+.style-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; margin-bottom: 20px; }
+.style-option {
+    background: #f1f5f9; border-radius: 10px; padding: 10px;
+    text-align: center; cursor: pointer; border: 2px solid transparent; transition: 0.2s;
+}
+.style-option i { display: block; font-size: 18px; margin-bottom: 4px; color: #64748b; }
+.style-option span { font-size: 10px; font-weight: 600; color: #64748b; }
+.style-option.active { border-color: #0ea5e9; background: #e0f2fe; }
+.style-option.active i, .style-option.active span { color: #0ea5e9; }
+
+/* --- TOGGLE SWITCH & LEGEND --- */
+.toggle-group { margin-bottom: 15px; padding-bottom: 10px; border-bottom: 1px solid #f1f5f9; }
+.toggle-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 5px; }
+.toggle-header span { font-size: 13px; font-weight: 500; color: #334155; }
+
+/* Switch CSS */
+.switch { position: relative; display: inline-block; width: 40px; height: 22px; }
+.switch input { opacity: 0; width: 0; height: 0; }
+.slider {
+    position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0;
+    background-color: #cbd5e1; transition: .4s; border-radius: 34px;
+}
+.slider:before {
+    position: absolute; content: ""; height: 16px; width: 16px; left: 3px; bottom: 3px;
+    background-color: white; transition: .4s; border-radius: 50%;
+}
+input:checked + .slider { background-color: #0ea5e9; }
+input:checked + .slider:before { transform: translateX(18px); }
+
+/* --- KETERANGAN WARNA (LEGEND) --- */
+.legend { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 5px; }
+.legend-item { display: flex; align-items: center; gap: 4px; font-size: 11px; color: #64748b; }
+.dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+
+/* Warna Dot */
+.bg-red { background: #ef4444; }
+.bg-green { background: #22c55e; }
+.bg-blue { background: #3b82f6; }
+.bg-orange { background: #f97316; }
+.bg-purple { background: #9333ea; }
+.bg-yellow { background: #eab308; }
+.bg-navy { background: #1e40af; }
+
+/* --- CUSTOM PREMIUM POPUP --- */
+.leaflet-popup-content-wrapper {
+    padding: 0; border-radius: 12px; overflow: hidden;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2); border: none;
+}
+.leaflet-popup-content { margin: 0; width: 280px !important; }
+.leaflet-popup-tip { background: white; }
+.leaflet-container a.leaflet-popup-close-button {
+    color: white; font-size: 24px; top: 10px; right: 10px; 
+    text-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+/* Desain Kartu Popup */
+.popup-card { font-family: 'Poppins', sans-serif; }
+.popup-hero {
+    height: 140px; background-color: #eee; position: relative;
+    background-size: cover; background-position: center;
+}
+.popup-badge {
+    position: absolute; bottom: 10px; left: 15px;
+    background: rgba(0,0,0,0.7); color: white;
+    padding: 4px 10px; border-radius: 20px; font-size: 10px; font-weight: 600;
+    text-transform: uppercase; letter-spacing: 0.5px;
+}
+.popup-details { padding: 15px; }
+.popup-row {
+    display: flex; justify-content: space-between; margin-bottom: 8px;
+    font-size: 12px; border-bottom: 1px dashed #eee; padding-bottom: 8px;
+}
+.popup-row span { color: #64748b; }
+.popup-row b { color: #1e293b; font-weight: 600; }
+.popup-footer {
+    text-align: center; font-size: 10px; color: #94a3b8; margin-top: 10px;
+}

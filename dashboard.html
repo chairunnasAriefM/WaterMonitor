@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - WaterMonitor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="icon" type="image/x-icon" href="assets/img/iconWebsite.png">
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+    <div class="sidebar">
+        <div class="brand">
+            <i class="ri-drop-line"></i> WaterMonitor
+        </div>
+        <a href="#" class="nav-item active"><i class="ri-dashboard-line"></i> Dashboard</a>
+        <a href="index.html" class="nav-item"><i class="ri-map-2-line"></i> Lihat Peta</a>
+        <div class="nav-item logout" onclick="logout()">
+            <i class="ri-logout-box-line"></i> Keluar
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="header">
+            <div>
+                <h1>Overview Data</h1>
+                <p style="color:#64748b; font-size:14px;">Statistik kualitas air sumur warga</p>
+            </div>
+            <button class="btn-primary" onclick="openModal()">
+                <i class="ri-add-line"></i> Tambah Data
+            </button>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-icon bg-blue"><i class="ri-database-2-line"></i></div>
+                <div>
+                    <h3>Total Data</h3>
+                    <span id="totalData">0</span> Sumur
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon bg-green"><i class="ri-test-tube-line"></i></div>
+                <div>
+                    <h3>Rata-rata pH</h3>
+                    <span id="avgPh">0</span>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon bg-red"><i class="ri-alert-line"></i></div>
+                <div>
+                    <h3>Risiko Tinggi</h3>
+                    <span id="riskCount">0</span> Titik
+                </div>
+            </div>
+        </div>
+
+        <div class="charts-grid">
+            <div class="chart-card">
+                <h4>Sebaran Jenis Sumur</h4>
+                <div class="chart-wrapper">
+                    <canvas id="jenisChart"></canvas>
+                </div>
+            </div>
+            <div class="chart-card">
+                <h4>Kualitas Fisik (Rasa/Bau/Warna)</h4>
+                <div class="chart-wrapper">
+                    <canvas id="fisikChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="table-toolbar">
+            <div class="search-box">
+                <i class="ri-search-line"></i>
+                <input type="text" id="searchInput" placeholder="Cari ID, Jenis, atau Status..."
+                    onkeyup="handleSearch()">
+            </div>
+        </div>
+
+        <div class="table-card">
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Jenis Sumur</th>
+                        <th>pH Air</th>
+                        <th>Jarak Septic</th>
+                        <th>Status Fisik</th>
+                        <th style="text-align:right;">Aksi</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                </tbody>
+            </table>
+
+            <div class="pagination">
+                <span id="pageInfo" class="page-info">Menampilkan Data...</span>
+                <div class="page-btns">
+                    <button id="prevBtn" class="page-btn" onclick="changePage(-1)">
+                        <i class="ri-arrow-left-line"></i> Sebelumnya
+                    </button>
+                    <button id="nextBtn" class="page-btn" onclick="changePage(1)">
+                        Selanjutnya <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="dataModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Form Data Sumur</h3>
+                <i class="ri-close-line close-modal" onclick="closeModal()"></i>
+            </div>
+            <form id="crudForm">
+                <input type="hidden" id="dataId">
+                <div class="grid-2">
+                    <div class="form-group"><label>Latitude (X)</label><input type="number" step="any" id="lat"
+                            class="form-input" required></div>
+                    <div class="form-group"><label>Longitude (Y)</label><input type="number" step="any" id="lng"
+                            class="form-input" required></div>
+                </div>
+                <div class="form-group"><label>Jenis Sumber Air</label><select id="jenis" class="form-input">
+                        <option value="Sumur Bor">Sumur Bor</option>
+                        <option value="Sumur Gali">Sumur Gali</option>
+                    </select></div>
+                <div class="grid-2">
+                    <div class="form-group"><label>pH Air</label><input type="number" step="0.1" id="ph"
+                            class="form-input" required></div>
+                    <div class="form-group"><label>Jarak Septic Tank (m)</label><input type="number" id="jarak"
+                            class="form-input" required></div>
+                </div>
+                <div class="form-group"><label>Skor Fisik (5=Bagus)</label><input type="number" id="skor"
+                        class="form-input" required></div>
+                <div class="form-group"><label>Link Foto</label><input type="text" id="foto" class="form-input"></div>
+                <button type="submit" class="btn-primary">Simpan Data</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/dashboard.js"></script>
+</body>
+
+</html>

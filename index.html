@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WaterMonitor - Pekanbaru WebGIS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/img/iconWebsite.png">
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <i class="ri-drop-fill"></i> WaterMonitor.
+        </div>
+        <a href="map.html" class="nav-btn">Buka Peta <i class="ri-arrow-right-up-line"></i></a>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content reveal">
+            <span class="hero-badge">🚀 WebGIS Project Pekanbaru</span>
+            <h1>Pantau Kualitas Air,<br><span class="gradient-text">Lindungi Masa Depan.</span></h1>
+            <p>
+                Platform pemetaan digital modern untuk memonitor kualitas air sumur dan 
+                mendeteksi risiko kontaminasi septic tank di Kota Pekanbaru secara real-time.
+            </p>
+            <div class="cta-group">
+                <a href="map.html" class="btn-primary">
+                    Lihat Peta <i class="ri-earth-line"></i>
+                </a>
+                <a href="#explain" class="btn-link">Pelajari Dulu ↓</a>
+            </div>
+        </div>
+
+        <div class="hero-visual reveal">
+            <div class="map-stack">
+                <div class="glass-layer gl-1"></div>
+                <div class="glass-layer gl-2"></div>
+                <div class="glass-layer gl-3">
+                    <i class="ri-map-2-line" style="font-size: 80px; color: var(--primary); opacity: 0.5;"></i>
+                </div>
+                
+                <i class="ri-map-pin-fill map-pin p1"></i>
+                <i class="ri-drop-fill map-pin p2"></i>
+            </div>
+        </div>
+    </section>
+
+    <section id="explain" class="section">
+        <div class="section-title reveal">
+            <h2>Why This Matters?</h2>
+            <p>Data spasial cerdas untuk kesehatan lingkungan kita.</p>
+        </div>
+
+        <div class="info-grid">
+            <div class="card danger reveal" data-tilt>
+                <div class="card-content">
+                    <div class="card-icon"><i class="ri-alarm-warning-fill"></i></div>
+                    <h3>The Silent Killer</h3>
+                    <p>
+                        Tahukah kamu? Jarak aman minimal antara <b>Sumur Air</b> dan <b>Septic Tank</b> 
+                        menurut SNI adalah <b>10 Meter</b>. Kurang dari itu? Risiko bakteri <i>E. Coli</i> 
+                        merembes ke air minummu sangat tinggi. WebGIS ini mendeteksi pelanggaran tersebut secara visual.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card reveal" data-tilt style="transition-delay: 150ms;">
+                <div class="card-content">
+                    <div class="card-icon"><i class="ri-map-2-fill"></i></div>
+                    <h3>Spatial Intelligence</h3>
+                    <p>
+                        Kami menggunakan teknologi <b>GIS (Geographic Information System)</b>. 
+                        Data tidak hanya berupa tabel membosankan, tapi diplot ke dalam koordinat nyata. 
+                        Kamu bisa melihat sebaran pH air dan kualitas fisik di setiap kecamatan di Pekanbaru.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card reveal" data-tilt style="transition-delay: 300ms;">
+                <div class="card-content">
+                    <div class="card-icon"><i class="ri-bar-chart-grouped-fill"></i></div>
+                    <h3>Data-Driven Decision</h3>
+                    <p>
+                        Membantu masyarakat dan pemerintah mengambil keputusan berbasis data. 
+                        Jika area kamu banyak tanda <span style="color:var(--accent); font-weight:bold;">Merah</span>, 
+                        artinya sanitasi lingkungan perlu segera diperbaiki sebelum wabah penyakit menyerang.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="section-title reveal">
+            <h2>Modern Features</h2>
+            <p>Dibangun dengan teknologi terkini untuk pengalaman terbaik.</p>
+        </div>
+        <div class="feature-grid reveal">
+            <div class="feature-item">
+                <i class="ri-smartphone-line feature-icon-lg"></i>
+                <h4>Mobile First</h4>
+                <p style="font-size: 14px; color: var(--text-muted);">Responsif di semua gawai</p>
+            </div>
+            <div class="feature-item">
+                <i class="ri-stack-line feature-icon-lg"></i>
+                <h4>Multi-Layer</h4>
+                <p style="font-size: 14px; color: var(--text-muted);">Mode Satelit & Jalan</p>
+            </div>
+            <div class="feature-item">
+                <i class="ri-focus-3-line feature-icon-lg"></i>
+                <h4>Smart Marker</h4>
+                <p style="font-size: 14px; color: var(--text-muted);">Indikator warna otomatis</p>
+            </div>
+            <div class="feature-item">
+                <i class="ri-camera-lens-line feature-icon-lg"></i>
+                <h4>Evidence</h4>
+                <p style="font-size: 14px; color: var(--text-muted);">Foto kondisi lapangan</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="marquee-wrapper">
+        <div class="marquee-content">
+            <i class="ri-html5-fill" title="HTML5"></i> 
+            <i class="ri-css3-fill" title="CSS3"></i> 
+            <i class="ri-javascript-fill" title="JavaScript"></i>
+            <i class="ri-map-pin-line" title="LeafletJS"></i> 
+            <i class="ri-database-2-line" title="Database"></i> 
+            <i class="ri-earth-fill" title="ArcGIS / WebGIS"></i> 
+
+            <i class="ri-html5-fill"></i> 
+            <i class="ri-css3-fill"></i> 
+            <i class="ri-javascript-fill"></i>
+            <i class="ri-map-pin-line"></i> 
+            <i class="ri-database-2-line"></i> 
+            <i class="ri-earth-fill"></i> 
+
+             <i class="ri-html5-fill"></i> 
+             <i class="ri-css3-fill"></i> 
+             <i class="ri-javascript-fill"></i>
+             <i class="ri-map-pin-line"></i> 
+             <i class="ri-database-2-line"></i> 
+             <i class="ri-earth-fill"></i> 
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 WaterMonitor Project Pekanbaru. <br>Made with 🩵 by Kelompok 2.</p>
+    </footer>
+
+    <script>
+      
+    </script>
+
+    <script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,2110 @@
+{
+    "displayFieldName": "",
+    "fieldAliases": {
+        "FID": "FID",
+        "OBJECTID": "OBJECTID",
+        "Timestamp": "Timestamp",
+        "Titik_Koor": "Titik_Koor",
+        "Titik_Ko_1": "Titik_Ko_1",
+        "Jenis_Sumb": "Jenis_Sumb",
+        "Jara_ke_se": "Jara_ke_se",
+        "Skor_air_d": "Skor_air_d",
+        "Ph_air": "Ph_air",
+        "Jumlah_ang": "Jumlah_ang",
+        "Freuensi_p": "Freuensi_p",
+        "Foto_sumbe": "Foto_sumbe"
+    },
+    "geometryType": "esriGeometryPoint",
+    "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+    },
+    "fields": [
+        {
+            "name": "FID",
+            "type": "esriFieldTypeOID",
+            "alias": "FID"
+        },
+        {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeInteger",
+            "alias": "OBJECTID"
+        },
+        {
+            "name": "Timestamp",
+            "type": "esriFieldTypeString",
+            "alias": "Timestamp",
+            "length": 254
+        },
+        {
+            "name": "Titik_Koor",
+            "type": "esriFieldTypeDouble",
+            "alias": "Titik_Koor"
+        },
+        {
+            "name": "Titik_Ko_1",
+            "type": "esriFieldTypeDouble",
+            "alias": "Titik_Ko_1"
+        },
+        {
+            "name": "Jenis_Sumb",
+            "type": "esriFieldTypeString",
+            "alias": "Jenis_Sumb",
+            "length": 254
+        },
+        {
+            "name": "Jara_ke_se",
+            "type": "esriFieldTypeInteger",
+            "alias": "Jara_ke_se"
+        },
+        {
+            "name": "Skor_air_d",
+            "type": "esriFieldTypeInteger",
+            "alias": "Skor_air_d"
+        },
+        {
+            "name": "Ph_air",
+            "type": "esriFieldTypeDouble",
+            "alias": "Ph_air"
+        },
+        {
+            "name": "Jumlah_ang",
+            "type": "esriFieldTypeInteger",
+            "alias": "Jumlah_ang"
+        },
+        {
+            "name": "Freuensi_p",
+            "type": "esriFieldTypeString",
+            "alias": "Freuensi_p",
+            "length": 254
+        },
+        {
+            "name": "Foto_sumbe",
+            "type": "esriFieldTypeString",
+            "alias": "Foto_sumbe",
+            "length": 254
+        }
+    ],
+    "features": [
+        {
+            "attributes": {
+                "FID": 0,
+                "OBJECTID": 1,
+                "Timestamp": "11/6/2025 13:46:44",
+                "Titik_Koor": 0.58796800000000005,
+                "Titik_Ko_1": 101.406425,
+                "Jenis_Sumb": "Sumur Gali",
+                "Jara_ke_se": 40,
+                "Skor_air_d": 4,
+                "Ph_air": 5.4000000000000004,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1OglXTtKKWq6zOX4ttKwXIO0awhXo7QwZ"
+            },
+            "geometry": {
+                "x": 0.58796800000000005,
+                "y": 101.406425
+            }
+        },
+        {
+            "attributes": {
+                "FID": 1,
+                "OBJECTID": 2,
+                "Timestamp": "11/6/2025 15:12:20",
+                "Titik_Koor": 0.561747,
+                "Titik_Ko_1": 101.421757,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 5,
+                "Skor_air_d": 3,
+                "Ph_air": 8.5,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1c67K7nn9wUmsTKwacrdSXMLfgy3g2hHQ"
+            },
+            "geometry": {
+                "x": 0.561747,
+                "y": 101.421757
+            }
+        },
+        {
+            "attributes": {
+                "FID": 2,
+                "OBJECTID": 3,
+                "Timestamp": "11/6/2025 15:57:41",
+                "Titik_Koor": 0.57110700000000003,
+                "Titik_Ko_1": 101.466399,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 12,
+                "Skor_air_d": 4,
+                "Ph_air": 8.8000000000000007,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=10xfF9sOPPjlka2no95Lc_HC5IyZNZjAV"
+            },
+            "geometry": {
+                "x": 0.57110700000000003,
+                "y": 101.466399
+            }
+        },
+        {
+            "attributes": {
+                "FID": 3,
+                "OBJECTID": 4,
+                "Timestamp": "11/6/2025 16:06:19",
+                "Titik_Koor": 0.57105799999999995,
+                "Titik_Ko_1": 101.466611,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 4,
+                "Skor_air_d": 3,
+                "Ph_air": 8.9199999999999999,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1X2J6-pMX6iCs-nIinf1SXDrRdMDpiooG"
+            },
+            "geometry": {
+                "x": 0.57105799999999995,
+                "y": 101.466611
+            }
+        },
+        {
+            "attributes": {
+                "FID": 4,
+                "OBJECTID": 5,
+                "Timestamp": "11/6/2025 16:19:42",
+                "Titik_Koor": 0.571079,
+                "Titik_Ko_1": 101.46589299999999,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 7,
+                "Skor_air_d": 4,
+                "Ph_air": 7.7000000000000002,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1TW5ZPPPWwhv8youetdKfrJbW_ELTM-SA"
+            },
+            "geometry": {
+                "x": 0.571079,
+                "y": 101.46589299999999
+            }
+        },
+        {
+            "attributes": {
+                "FID": 5,
+                "OBJECTID": 6,
+                "Timestamp": "11/7/2025 10:38:02",
+                "Titik_Koor": 0.57420599999999999,
+                "Titik_Ko_1": 101.421267,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 5,
+                "Skor_air_d": 4,
+                "Ph_air": 8.5999999999999996,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1xst4qesLfiVOJE16x6c-dfDtMlFBHxQt"
+            },
+            "geometry": {
+                "x": 0.57420599999999999,
+                "y": 101.421267
+            }
+        },
+        {
+            "attributes": {
+                "FID": 6,
+                "OBJECTID": 7,
+                "Timestamp": "11/7/2025 11:11:33",
+                "Titik_Koor": 0.55765699999999996,
+                "Titik_Ko_1": 101.431808,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 20,
+                "Skor_air_d": 4,
+                "Ph_air": 9,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1u3PUJ2am9pfgozFVy4SIkHd7IEDP4WSX"
+            },
+            "geometry": {
+                "x": 0.55765699999999996,
+                "y": 101.431808
+            }
+        },
+        {
+            "attributes": {
+                "FID": 7,
+                "OBJECTID": 8,
+                "Timestamp": "11/7/2025 11:18:06",
+                "Titik_Koor": 0.55759000000000003,
+                "Titik_Ko_1": 101.431725,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 10,
+                "Skor_air_d": 4,
+                "Ph_air": 8.0999999999999996,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1jPlTURJevBVpqo3xnJ_5IvshCuOF4-VX"
+            },
+            "geometry": {
+                "x": 0.55759000000000003,
+                "y": 101.431725
+            }
+        },
+        {
+            "attributes": {
+                "FID": 8,
+                "OBJECTID": 9,
+                "Timestamp": "11/7/2025 11:42:14",
+                "Titik_Koor": 0.570268,
+                "Titik_Ko_1": 101.412233,
+                "Jenis_Sumb": "Sumur Gali",
+                "Jara_ke_se": 20,
+                "Skor_air_d": 4,
+                "Ph_air": 5.0999999999999996,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1YnVJ7nQLn_Dpk1nhBkwpQF3a2MnFjeYt"
+            },
+            "geometry": {
+                "x": 0.570268,
+                "y": 101.412233
+            }
+        },
+        {
+            "attributes": {
+                "FID": 9,
+                "OBJECTID": 10,
+                "Timestamp": "11/7/2025 11:55:37",
+                "Titik_Koor": 0.57144499999999998,
+                "Titik_Ko_1": 101.41558499999999,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 10,
+                "Skor_air_d": 5,
+                "Ph_air": 5.2199999999999998,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1NBHVsh0J1nEQdr9S5bouCQ3EUgso_L5N"
+            },
+            "geometry": {
+                "x": 0.57144499999999998,
+                "y": 101.41558499999999
+            }
+        },
+        {
+            "attributes": {
+                "FID": 10,
+                "OBJECTID": 11,
+                "Timestamp": "11/7/2025 13:29:51",
+                "Titik_Koor": 0.53865700000000005,
+                "Titik_Ko_1": 101.421391,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 40,
+                "Skor_air_d": 3,
+                "Ph_air": 7,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1_cELm0nu5Kp20TRFzrd_UwJHIrya8HIw"
+            },
+            "geometry": {
+                "x": 0.53865700000000005,
+                "y": 101.421391
+            }
+        },
+        {
+            "attributes": {
+                "FID": 11,
+                "OBJECTID": 12,
+                "Timestamp": "11/8/2025 13:48:27",
+                "Titik_Koor": 0.53482099999999999,
+                "Titik_Ko_1": 101.425994,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 4,
+                "Skor_air_d": 2,
+                "Ph_air": 5.5,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1xlP1rNx3zGHN__-g77F-yf3MuUVznND6"
+            },
+            "geometry": {
+                "x": 0.53482099999999999,
+                "y": 101.425994
+            }
+        },
+        {
+            "attributes": {
+                "FID": 12,
+                "OBJECTID": 13,
+                "Timestamp": "11/8/2025 14:12:37",
+                "Titik_Koor": 0.54056599999999999,
+                "Titik_Ko_1": 101.411068,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 5,
+                "Skor_air_d": 2,
+                "Ph_air": 7.6799999999999997,
+                "Jumlah_ang": 1,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1rdhv62PiuLdMls56AGUnr2uD1wvbMZv2"
+            },
+            "geometry": {
+                "x": 0.54056599999999999,
+                "y": 101.411068
+            }
+        },
+        {
+            "attributes": {
+                "FID": 13,
+                "OBJECTID": 14,
+                "Timestamp": "11/8/2025 14:34:25",
+                "Titik_Koor": 0.53749499999999995,
+                "Titik_Ko_1": 101.433134,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 5,
+                "Skor_air_d": 3,
+                "Ph_air": 5.8600000000000003,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1PYTzsdudBe3ZC4UUqFNC628gaGB-ExKq"
+            },
+            "geometry": {
+                "x": 0.53749499999999995,
+                "y": 101.433134
+            }
+        },
+        {
+            "attributes": {
+                "FID": 14,
+                "OBJECTID": 15,
+                "Timestamp": "11/8/2025 14:59:05",
+                "Titik_Koor": 0.53849199999999997,
+                "Titik_Ko_1": 101.420861,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 12,
+                "Skor_air_d": 2,
+                "Ph_air": 6.9000000000000004,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1ML_5myb3LS4nBRm18qBVD7Sgy8hcMm8S"
+            },
+            "geometry": {
+                "x": 0.53849199999999997,
+                "y": 101.420861
+            }
+        },
+        {
+            "attributes": {
+                "FID": 15,
+                "OBJECTID": 16,
+                "Timestamp": "11/8/2025 15:05:17",
+                "Titik_Koor": 0.53850399999999998,
+                "Titik_Ko_1": 101.420811,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 20,
+                "Skor_air_d": 4,
+                "Ph_air": 8.1500000000000004,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=16BLqNP2UU-hr0JbkPpyzFlYEXfRcSB4a"
+            },
+            "geometry": {
+                "x": 0.53850399999999998,
+                "y": 101.420811
+            }
+        },
+        {
+            "attributes": {
+                "FID": 16,
+                "OBJECTID": 17,
+                "Timestamp": "11/8/2025 15:08:24",
+                "Titik_Koor": 0.53851300000000002,
+                "Titik_Ko_1": 101.420868,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 20,
+                "Skor_air_d": 3,
+                "Ph_air": 7.2999999999999998,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1mUrBYk_cVYp6sPZh6pPVrZj4tZYFYW25"
+            },
+            "geometry": {
+                "x": 0.53851300000000002,
+                "y": 101.420868
+            }
+        },
+        {
+            "attributes": {
+                "FID": 17,
+                "OBJECTID": 18,
+                "Timestamp": "11/8/2025 15:26:16",
+                "Titik_Koor": 0.53843200000000002,
+                "Titik_Ko_1": 101.421098,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 25,
+                "Skor_air_d": 4,
+                "Ph_air": 7.6799999999999997,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1dxCEaYuAOepcwE1vf2wboeKY2DIFYazJ"
+            },
+            "geometry": {
+                "x": 0.53843200000000002,
+                "y": 101.421098
+            }
+        },
+        {
+            "attributes": {
+                "FID": 18,
+                "OBJECTID": 19,
+                "Timestamp": "11/8/2025 15:35:31",
+                "Titik_Koor": 0.53855500000000001,
+                "Titik_Ko_1": 101.420761,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 25,
+                "Skor_air_d": 4,
+                "Ph_air": 8,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1nDb9NeYgks7gs9d5nS8vLPImpYjfZcRE"
+            },
+            "geometry": {
+                "x": 0.53855500000000001,
+                "y": 101.420761
+            }
+        },
+        {
+            "attributes": {
+                "FID": 19,
+                "OBJECTID": 20,
+                "Timestamp": "11/8/2025 16:35:00",
+                "Titik_Koor": 0.54044800000000004,
+                "Titik_Ko_1": 101.419955,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 10,
+                "Skor_air_d": 4,
+                "Ph_air": 5.7999999999999998,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1nYW4N3BNeL1mbui3UavoMZTrh2O9KHBP"
+            },
+            "geometry": {
+                "x": 0.54044800000000004,
+                "y": 101.419955
+            }
+        },
+        {
+            "attributes": {
+                "FID": 20,
+                "OBJECTID": 21,
+                "Timestamp": "11/8/2025 16:40:18",
+                "Titik_Koor": 0.54064100000000004,
+                "Titik_Ko_1": 101.419934,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 10,
+                "Skor_air_d": 4,
+                "Ph_air": 4.8499999999999996,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1KhAc_QnPGsLuM44oi99HJ2_B9U9h504u"
+            },
+            "geometry": {
+                "x": 0.54064100000000004,
+                "y": 101.419934
+            }
+        },
+        {
+            "attributes": {
+                "FID": 21,
+                "OBJECTID": 22,
+                "Timestamp": "11/8/2025 16:43:55",
+                "Titik_Koor": 0.54074999999999995,
+                "Titik_Ko_1": 101.419858,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 10,
+                "Skor_air_d": 4,
+                "Ph_air": 6.04,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1C3QR4nLR_2pKu5Z-RpwNMA-qQQ2Y7_0u"
+            },
+            "geometry": {
+                "x": 0.54074999999999995,
+                "y": 101.419858
+            }
+        },
+        {
+            "attributes": {
+                "FID": 22,
+                "OBJECTID": 23,
+                "Timestamp": "11/8/2025 17:00:21",
+                "Titik_Koor": 0.53607400000000005,
+                "Titik_Ko_1": 101.421311,
+                "Jenis_Sumb": "PDAM",
+                "Jara_ke_se": 25,
+                "Skor_air_d": 4,
+                "Ph_air": 7.5999999999999996,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1mjhhqug4QJSX7wCQWWW2FOH_g1eI-smu"
+            },
+            "geometry": {
+                "x": 0.53607400000000005,
+                "y": 101.421311
+            }
+        },
+        {
+            "attributes": {
+                "FID": 23,
+                "OBJECTID": 24,
+                "Timestamp": "11/8/2025 17:06:15",
+                "Titik_Koor": 0.53645500000000002,
+                "Titik_Ko_1": 101.421367,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 25,
+                "Skor_air_d": 5,
+                "Ph_air": 7.1500000000000004,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1G_UuaWTYYc8KdY3NnPCYS2UTgBg8-Khe"
+            },
+            "geometry": {
+                "x": 0.53645500000000002,
+                "y": 101.421367
+            }
+        },
+        {
+            "attributes": {
+                "FID": 24,
+                "OBJECTID": 25,
+                "Timestamp": "11/8/2025 17:13:59",
+                "Titik_Koor": 0.53693199999999996,
+                "Titik_Ko_1": 101.420858,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 30,
+                "Skor_air_d": 5,
+                "Ph_air": 8.7300000000000004,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1Re_4p0AAjIgtpwKThDDkkdFswer0uxcy"
+            },
+            "geometry": {
+                "x": 0.53693199999999996,
+                "y": 101.420858
+            }
+        },
+        {
+            "attributes": {
+                "FID": 25,
+                "OBJECTID": 26,
+                "Timestamp": "11/8/2025 17:25:19",
+                "Titik_Koor": 0.53850399999999998,
+                "Titik_Ko_1": 101.423384,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 15,
+                "Skor_air_d": 3,
+                "Ph_air": 6.8499999999999996,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1MFOPsN17WThV0y56CM-fFcvhPn1ls1_B"
+            },
+            "geometry": {
+                "x": 0.53850399999999998,
+                "y": 101.423384
+            }
+        },
+        {
+            "attributes": {
+                "FID": 26,
+                "OBJECTID": 27,
+                "Timestamp": "11/9/2025 9:07:46",
+                "Titik_Koor": 0.58810499999999999,
+                "Titik_Ko_1": 101.40682700000001,
+                "Jenis_Sumb": "Sumur Gali",
+                "Jara_ke_se": 45,
+                "Skor_air_d": 3,
+                "Ph_air": 6.7000000000000002,
+                "Jumlah_ang": 2,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1iFU4xpLfVTDfD5zcqxnvyc8Eu8Ms9aZl"
+            },
+            "geometry": {
+                "x": 0.58810499999999999,
+                "y": 101.40682700000001
+            }
+        },
+        {
+            "attributes": {
+                "FID": 27,
+                "OBJECTID": 28,
+                "Timestamp": "11/9/2025 9:09:25",
+                "Titik_Koor": 0.58796599999999999,
+                "Titik_Ko_1": 101.406785,
+                "Jenis_Sumb": "Sumur Gali",
+                "Jara_ke_se": 45,
+                "Skor_air_d": 3,
+                "Ph_air": 5.5999999999999996,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1LgchQjEKBkqzxPwMv5uN1OAUvcbTzAeN"
+            },
+            "geometry": {
+                "x": 0.58796599999999999,
+                "y": 101.406785
+            }
+        },
+        {
+            "attributes": {
+                "FID": 28,
+                "OBJECTID": 29,
+                "Timestamp": "11/9/2025 11:11:25",
+                "Titik_Koor": 0.58797299999999997,
+                "Titik_Ko_1": 101.40670299999999,
+                "Jenis_Sumb": "Sumur Gali",
+                "Jara_ke_se": 40,
+                "Skor_air_d": 5,
+                "Ph_air": 7.2999999999999998,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1Jw2l_2oeMmyi_wP973zERoggSs-XeXl6"
+            },
+            "geometry": {
+                "x": 0.58797299999999997,
+                "y": 101.40670299999999
+            }
+        },
+        {
+            "attributes": {
+                "FID": 29,
+                "OBJECTID": 30,
+                "Timestamp": "11/9/2025 11:14:21",
+                "Titik_Koor": 0.58806800000000004,
+                "Titik_Ko_1": 101.406891,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 45,
+                "Skor_air_d": 4,
+                "Ph_air": 5.0999999999999996,
+                "Jumlah_ang": 3,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1EWI8Y96z3p2A_boeGT-B8_19nAnbqGVB"
+            },
+            "geometry": {
+                "x": 0.58806800000000004,
+                "y": 101.406891
+            }
+        },
+        {
+            "attributes": {
+                "FID": 30,
+                "OBJECTID": 31,
+                "Timestamp": "11/9/2025 11:16:12",
+                "Titik_Koor": 0.58792699999999998,
+                "Titik_Ko_1": 101.406768,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 30,
+                "Skor_air_d": 2,
+                "Ph_air": 5.9000000000000004,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1a2Gz26pWtQ4viBjXZUF_zij8dIQKkX4B"
+            },
+            "geometry": {
+                "x": 0.58792699999999998,
+                "y": 101.406768
+            }
+        },
+        {
+            "attributes": {
+                "FID": 31,
+                "OBJECTID": 32,
+                "Timestamp": "11/9/2025 11:17:54",
+                "Titik_Koor": 0.56880699999999995,
+                "Titik_Ko_1": 101.40687699999999,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 15,
+                "Skor_air_d": 4,
+                "Ph_air": 5.6799999999999997,
+                "Jumlah_ang": 1,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1-5K4UmwFQbv2QwS4HnqLNjhFbwxd2GvT"
+            },
+            "geometry": {
+                "x": 0.56880699999999995,
+                "y": 101.40687699999999
+            }
+        },
+        {
+            "attributes": {
+                "FID": 32,
+                "OBJECTID": 33,
+                "Timestamp": "11/9/2025 11:19:56",
+                "Titik_Koor": 0.59058699999999997,
+                "Titik_Ko_1": 101.406504,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 20,
+                "Skor_air_d": 4,
+                "Ph_air": 5.5999999999999996,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1l7LIixOzhtOvGuVc5iYihIFIb7GHJi3o"
+            },
+            "geometry": {
+                "x": 0.59058699999999997,
+                "y": 101.406504
+            }
+        },
+        {
+            "attributes": {
+                "FID": 33,
+                "OBJECTID": 34,
+                "Timestamp": "11/9/2025 11:22:04",
+                "Titik_Koor": 0.58996800000000005,
+                "Titik_Ko_1": 101.405553,
+                "Jenis_Sumb": "Sumur Gali",
+                "Jara_ke_se": 15,
+                "Skor_air_d": 4,
+                "Ph_air": 5.2999999999999998,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1Ias2GqjWkCoH9SFLhK3IVD1rmcdKtVkp"
+            },
+            "geometry": {
+                "x": 0.58996800000000005,
+                "y": 101.405553
+            }
+        },
+        {
+            "attributes": {
+                "FID": 34,
+                "OBJECTID": 35,
+                "Timestamp": "11/9/2025 11:24:08",
+                "Titik_Koor": 0.59009199999999995,
+                "Titik_Ko_1": 101.40564999999999,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 15,
+                "Skor_air_d": 4,
+                "Ph_air": 5.9000000000000004,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1GJ-awv5LuJQbx6EAc7oQSKJI-a2y2BEb"
+            },
+            "geometry": {
+                "x": 0.59009199999999995,
+                "y": 101.40564999999999
+            }
+        },
+        {
+            "attributes": {
+                "FID": 35,
+                "OBJECTID": 36,
+                "Timestamp": "11/9/2025 11:26:30",
+                "Titik_Koor": 0.59000600000000003,
+                "Titik_Ko_1": 101.405581,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 20,
+                "Skor_air_d": 4,
+                "Ph_air": 5.5999999999999996,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1Mk42k_HWFHNqcJLYnkdfVEE6jo4bnmke"
+            },
+            "geometry": {
+                "x": 0.59000600000000003,
+                "y": 101.405581
+            }
+        },
+        {
+            "attributes": {
+                "FID": 36,
+                "OBJECTID": 37,
+                "Timestamp": "11/9/2025 11:29:09",
+                "Titik_Koor": 0.58491000000000004,
+                "Titik_Ko_1": 101.406864,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 20,
+                "Skor_air_d": 4,
+                "Ph_air": 7.2000000000000002,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=13Dc5YYOHfwspSvCYGkqIOsblb7HIx6cb"
+            },
+            "geometry": {
+                "x": 0.58491000000000004,
+                "y": 101.406864
+            }
+        },
+        {
+            "attributes": {
+                "FID": 37,
+                "OBJECTID": 38,
+                "Timestamp": "11/9/2025 11:30:39",
+                "Titik_Koor": 0.58470200000000006,
+                "Titik_Ko_1": 101.40691,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 15,
+                "Skor_air_d": 4,
+                "Ph_air": 7.5,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1-01oQi82Gp114lkpjgQY6QjD0r19w19o"
+            },
+            "geometry": {
+                "x": 0.58470200000000006,
+                "y": 101.40691
+            }
+        },
+        {
+            "attributes": {
+                "FID": 38,
+                "OBJECTID": 39,
+                "Timestamp": "11/9/2025 11:31:56",
+                "Titik_Koor": 0.58472199999999996,
+                "Titik_Ko_1": 101.406801,
+                "Jenis_Sumb": "Sumur Gali",
+                "Jara_ke_se": 15,
+                "Skor_air_d": 4,
+                "Ph_air": 5.5999999999999996,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1IlTa4Rd9-ilU3rGAIkCWw8Aye4W-KhdT"
+            },
+            "geometry": {
+                "x": 0.58472199999999996,
+                "y": 101.406801
+            }
+        },
+        {
+            "attributes": {
+                "FID": 39,
+                "OBJECTID": 40,
+                "Timestamp": "11/9/2025 11:34:57",
+                "Titik_Koor": 0.58498499999999998,
+                "Titik_Ko_1": 101.407118,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 10,
+                "Skor_air_d": 4,
+                "Ph_air": 7.0999999999999996,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1r12E2nXCrRq5w0--CNtte4vUkOhlnQui"
+            },
+            "geometry": {
+                "x": 0.58498499999999998,
+                "y": 101.407118
+            }
+        },
+        {
+            "attributes": {
+                "FID": 40,
+                "OBJECTID": 41,
+                "Timestamp": "11/9/2025 11:36:11",
+                "Titik_Koor": 0.58459899999999998,
+                "Titik_Ko_1": 101.407307,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 10,
+                "Skor_air_d": 3,
+                "Ph_air": 7.2999999999999998,
+                "Jumlah_ang": 2,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1aQq238cnAznkZX4CS-CGEVGSxLaHy-ZB"
+            },
+            "geometry": {
+                "x": 0.58459899999999998,
+                "y": 101.407307
+            }
+        },
+        {
+            "attributes": {
+                "FID": 41,
+                "OBJECTID": 42,
+                "Timestamp": "11/9/2025 11:37:22",
+                "Titik_Koor": 0.58453599999999994,
+                "Titik_Ko_1": 101.407511,
+                "Jenis_Sumb": "Sumur Gali",
+                "Jara_ke_se": 5,
+                "Skor_air_d": 3,
+                "Ph_air": 6.2000000000000002,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=15xExXOw-rKQTbTfm4Yzhi6G8j8sUH2SI"
+            },
+            "geometry": {
+                "x": 0.58453599999999994,
+                "y": 101.407511
+            }
+        },
+        {
+            "attributes": {
+                "FID": 42,
+                "OBJECTID": 43,
+                "Timestamp": "11/9/2025 11:38:40",
+                "Titik_Koor": 0.58445800000000003,
+                "Titik_Ko_1": 101.407252,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 10,
+                "Skor_air_d": 3,
+                "Ph_air": 7.3700000000000001,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=17uVeH_sGG0hw6E7qiC5UwPAVX1W-U2EQ"
+            },
+            "geometry": {
+                "x": 0.58445800000000003,
+                "y": 101.407252
+            }
+        },
+        {
+            "attributes": {
+                "FID": 43,
+                "OBJECTID": 44,
+                "Timestamp": "11/9/2025 12:40:26",
+                "Titik_Koor": 0.56806599999999996,
+                "Titik_Ko_1": 101.423069,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 10,
+                "Skor_air_d": 4,
+                "Ph_air": 8.1899999999999995,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1n_lFfCcdwGljJBq5Bg_FbqLVDstKx-ZG"
+            },
+            "geometry": {
+                "x": 0.56806599999999996,
+                "y": 101.423069
+            }
+        },
+        {
+            "attributes": {
+                "FID": 44,
+                "OBJECTID": 45,
+                "Timestamp": "11/9/2025 16:19:27",
+                "Titik_Koor": 0.56652400000000003,
+                "Titik_Ko_1": 101.424502,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 6,
+                "Skor_air_d": 3,
+                "Ph_air": 8.3000000000000007,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1G06SEwitkTGTjFNt8vTy9aFtcRTSIng3"
+            },
+            "geometry": {
+                "x": 0.56652400000000003,
+                "y": 101.424502
+            }
+        },
+        {
+            "attributes": {
+                "FID": 45,
+                "OBJECTID": 46,
+                "Timestamp": "11/9/2025 16:21:25",
+                "Titik_Koor": 0.56827499999999997,
+                "Titik_Ko_1": 101.42509,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 12,
+                "Skor_air_d": 5,
+                "Ph_air": 7.9299999999999997,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1TPpsdAqhMk_yo0c-NC6zbQEGdPec_66v"
+            },
+            "geometry": {
+                "x": 0.56827499999999997,
+                "y": 101.42509
+            }
+        },
+        {
+            "attributes": {
+                "FID": 46,
+                "OBJECTID": 47,
+                "Timestamp": "11/9/2025 16:26:31",
+                "Titik_Koor": 0.57471899999999998,
+                "Titik_Ko_1": 101.42171500000001,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 5,
+                "Skor_air_d": 3,
+                "Ph_air": 8.3000000000000007,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=15NIsPUX72mUXWbhzkW5G_nANDx4YBqc7"
+            },
+            "geometry": {
+                "x": 0.57471899999999998,
+                "y": 101.42171500000001
+            }
+        },
+        {
+            "attributes": {
+                "FID": 47,
+                "OBJECTID": 48,
+                "Timestamp": "11/9/2025 16:29:38",
+                "Titik_Koor": 0.57260999999999995,
+                "Titik_Ko_1": 101.42108,
+                "Jenis_Sumb": "Sumur Gali",
+                "Jara_ke_se": 10,
+                "Skor_air_d": 3,
+                "Ph_air": 7.5,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1elczKoMEufcsxgI3HgSP03hDBiS_Fbz9"
+            },
+            "geometry": {
+                "x": 0.57260999999999995,
+                "y": 101.42108
+            }
+        },
+        {
+            "attributes": {
+                "FID": 48,
+                "OBJECTID": 49,
+                "Timestamp": "11/9/2025 16:32:42",
+                "Titik_Koor": 0.568303,
+                "Titik_Ko_1": 101.425448,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 3,
+                "Skor_air_d": 3,
+                "Ph_air": 8.2699999999999996,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=14HdrgLNeez-s4fK0WZSKNGQrJHtvVoaW"
+            },
+            "geometry": {
+                "x": 0.568303,
+                "y": 101.425448
+            }
+        },
+        {
+            "attributes": {
+                "FID": 49,
+                "OBJECTID": 50,
+                "Timestamp": "11/9/2025 16:53:01",
+                "Titik_Koor": 0.56739799999999996,
+                "Titik_Ko_1": 101.42663,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 12,
+                "Skor_air_d": 3,
+                "Ph_air": 8.1699999999999999,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1SG2kKk1tv01il6LJV5avSUGhsaTaJeDG"
+            },
+            "geometry": {
+                "x": 0.56739799999999996,
+                "y": 101.42663
+            }
+        },
+        {
+            "attributes": {
+                "FID": 50,
+                "OBJECTID": 51,
+                "Timestamp": "11/9/2025 18:44:17",
+                "Titik_Koor": 0.56976599999999999,
+                "Titik_Ko_1": 101.46765499999999,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 13,
+                "Skor_air_d": 4,
+                "Ph_air": 6.2699999999999996,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1rd7WTNuHy9EKgugQMpDtr4-RA1ywHLRs"
+            },
+            "geometry": {
+                "x": 0.56976599999999999,
+                "y": 101.46765499999999
+            }
+        },
+        {
+            "attributes": {
+                "FID": 51,
+                "OBJECTID": 52,
+                "Timestamp": "11/11/2025 10:16:52",
+                "Titik_Koor": 0.56244899999999998,
+                "Titik_Ko_1": 101.420962,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 5,
+                "Skor_air_d": 3,
+                "Ph_air": 9.1300000000000008,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1WhFJihvKXeH504D9PzqkSxRVf3UuUtdf"
+            },
+            "geometry": {
+                "x": 0.56244899999999998,
+                "y": 101.420962
+            }
+        },
+        {
+            "attributes": {
+                "FID": 52,
+                "OBJECTID": 53,
+                "Timestamp": "11/11/2025 11:32:10",
+                "Titik_Koor": 0.53881599999999996,
+                "Titik_Ko_1": 101.45840800000001,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 10,
+                "Skor_air_d": 5,
+                "Ph_air": 5.1799999999999997,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=12U8Nkqh_FmAlIILHjGhdh3R4w_S1ipE7"
+            },
+            "geometry": {
+                "x": 0.53881599999999996,
+                "y": 101.45840800000001
+            }
+        },
+        {
+            "attributes": {
+                "FID": 53,
+                "OBJECTID": 54,
+                "Timestamp": "11/11/2025 11:43:19",
+                "Titik_Koor": 0.538874,
+                "Titik_Ko_1": 101.458119,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 20,
+                "Skor_air_d": 3,
+                "Ph_air": 4.5,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1qoE222QC47awUMK4l3OA9cLk5W0UCK4-"
+            },
+            "geometry": {
+                "x": 0.538874,
+                "y": 101.458119
+            }
+        },
+        {
+            "attributes": {
+                "FID": 54,
+                "OBJECTID": 55,
+                "Timestamp": "11/11/2025 11:44:49",
+                "Titik_Koor": 0.53885799999999995,
+                "Titik_Ko_1": 101.45841299999999,
+                "Jenis_Sumb": "Sumur Gali",
+                "Jara_ke_se": 7,
+                "Skor_air_d": 4,
+                "Ph_air": 5.7000000000000002,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1aMYwnv1RPVnDeXQDlA3056EmRSDsHsp7"
+            },
+            "geometry": {
+                "x": 0.53885799999999995,
+                "y": 101.45841299999999
+            }
+        },
+        {
+            "attributes": {
+                "FID": 55,
+                "OBJECTID": 56,
+                "Timestamp": "11/11/2025 11:53:48",
+                "Titik_Koor": 0.53911600000000004,
+                "Titik_Ko_1": 101.458527,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 10,
+                "Skor_air_d": 4,
+                "Ph_air": 3.8799999999999999,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1vrlG3CeP6KRH6WTzWolrATHyCScC7Xr9"
+            },
+            "geometry": {
+                "x": 0.53911600000000004,
+                "y": 101.458527
+            }
+        },
+        {
+            "attributes": {
+                "FID": 56,
+                "OBJECTID": 57,
+                "Timestamp": "11/11/2025 12:10:05",
+                "Titik_Koor": 0.534806,
+                "Titik_Ko_1": 101.46136300000001,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 17,
+                "Skor_air_d": 5,
+                "Ph_air": 3.7799999999999998,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1HnlSKxuLoXUKUdl6VW_E1gQOF4n_8M8o"
+            },
+            "geometry": {
+                "x": 0.534806,
+                "y": 101.46136300000001
+            }
+        },
+        {
+            "attributes": {
+                "FID": 57,
+                "OBJECTID": 58,
+                "Timestamp": "11/11/2025 12:56:49",
+                "Titik_Koor": 0.53549800000000003,
+                "Titik_Ko_1": 101.463572,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 20,
+                "Skor_air_d": 4,
+                "Ph_air": 4.5499999999999998,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1cybvcMEQkAjqvJh4jzLSZrPgjkof_2Wh"
+            },
+            "geometry": {
+                "x": 0.53549800000000003,
+                "y": 101.463572
+            }
+        },
+        {
+            "attributes": {
+                "FID": 58,
+                "OBJECTID": 59,
+                "Timestamp": "11/11/2025 13:15:29",
+                "Titik_Koor": 0.53575799999999996,
+                "Titik_Ko_1": 101.46350099999999,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 10,
+                "Skor_air_d": 3,
+                "Ph_air": 3.9900000000000002,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1MEPEiSG-9B6vM3_3Ytx28wyVoduufyrE"
+            },
+            "geometry": {
+                "x": 0.53575799999999996,
+                "y": 101.46350099999999
+            }
+        },
+        {
+            "attributes": {
+                "FID": 59,
+                "OBJECTID": 60,
+                "Timestamp": "11/11/2025 13:28:49",
+                "Titik_Koor": 0.53064800000000001,
+                "Titik_Ko_1": 101.46498800000001,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 20,
+                "Skor_air_d": 4,
+                "Ph_air": 3.9500000000000002,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1hBioH7eoXpqCpxmPwzyjvE6847G3Jsue"
+            },
+            "geometry": {
+                "x": 0.53064800000000001,
+                "y": 101.46498800000001
+            }
+        },
+        {
+            "attributes": {
+                "FID": 60,
+                "OBJECTID": 61,
+                "Timestamp": "11/11/2025 13:49:39",
+                "Titik_Koor": 0.526339,
+                "Titik_Ko_1": 101.47929000000001,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 25,
+                "Skor_air_d": 4,
+                "Ph_air": 4.4500000000000002,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1OiJpzKz5LjR8VVzD_mB-Rb8O91kOQ8eA"
+            },
+            "geometry": {
+                "x": 0.526339,
+                "y": 101.47929000000001
+            }
+        },
+        {
+            "attributes": {
+                "FID": 61,
+                "OBJECTID": 62,
+                "Timestamp": "11/11/2025 14:17:42",
+                "Titik_Koor": 0.53487300000000004,
+                "Titik_Ko_1": 101.461445,
+                "Jenis_Sumb": "Sumur Gali",
+                "Jara_ke_se": 10,
+                "Skor_air_d": 3,
+                "Ph_air": 3.9500000000000002,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1CWrPzj6milawTM86HhFH0__Yc57HJxyD"
+            },
+            "geometry": {
+                "x": 0.53487300000000004,
+                "y": 101.461445
+            }
+        },
+        {
+            "attributes": {
+                "FID": 62,
+                "OBJECTID": 63,
+                "Timestamp": "11/15/2025 11:51:38",
+                "Titik_Koor": 0.52785400000000005,
+                "Titik_Ko_1": 101.42814,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 22,
+                "Skor_air_d": 5,
+                "Ph_air": 7.4800000000000004,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1mXRWoumnGt3nqbqsnRua1aWST_J6njuu"
+            },
+            "geometry": {
+                "x": 0.52785400000000005,
+                "y": 101.42814
+            }
+        },
+        {
+            "attributes": {
+                "FID": 63,
+                "OBJECTID": 64,
+                "Timestamp": "11/15/2025 11:53:06",
+                "Titik_Koor": 0.43899500000000002,
+                "Titik_Ko_1": 101.378486,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 2,
+                "Skor_air_d": 4,
+                "Ph_air": 7.2599999999999998,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1Ux9o9vl7-cxgoy4J9fjH_YbrK02bOlgD"
+            },
+            "geometry": {
+                "x": 0.43899500000000002,
+                "y": 101.378486
+            }
+        },
+        {
+            "attributes": {
+                "FID": 64,
+                "OBJECTID": 65,
+                "Timestamp": "11/15/2025 12:25:23",
+                "Titik_Koor": 0.53909799999999997,
+                "Titik_Ko_1": 101.421369,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 10,
+                "Skor_air_d": 5,
+                "Ph_air": 9.0500000000000007,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1tx7VSTn7qw5rSqrUKsIqav-bcaKKc8oi"
+            },
+            "geometry": {
+                "x": 0.53909799999999997,
+                "y": 101.421369
+            }
+        },
+        {
+            "attributes": {
+                "FID": 65,
+                "OBJECTID": 66,
+                "Timestamp": "11/15/2025 12:33:05",
+                "Titik_Koor": 0.51408200000000004,
+                "Titik_Ko_1": 101.474987,
+                "Jenis_Sumb": "Sumur Gali",
+                "Jara_ke_se": 2,
+                "Skor_air_d": 4,
+                "Ph_air": 8.0700000000000003,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1l3g2mzpYKWbHsBYeHtP-bxMYto_1X6ee"
+            },
+            "geometry": {
+                "x": 0.51408200000000004,
+                "y": 101.474987
+            }
+        },
+        {
+            "attributes": {
+                "FID": 66,
+                "OBJECTID": 67,
+                "Timestamp": "11/15/2025 12:35:39",
+                "Titik_Koor": 0.53869900000000004,
+                "Titik_Ko_1": 101.48141699999999,
+                "Jenis_Sumb": "Sumur Gali",
+                "Jara_ke_se": 20,
+                "Skor_air_d": 5,
+                "Ph_air": 7.6500000000000004,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1E5smscoasA_SWAhWmtbQXib4r1kso46e"
+            },
+            "geometry": {
+                "x": 0.53869900000000004,
+                "y": 101.48141699999999
+            }
+        },
+        {
+            "attributes": {
+                "FID": 67,
+                "OBJECTID": 68,
+                "Timestamp": "11/15/2025 12:37:36",
+                "Titik_Koor": 0.53151000000000004,
+                "Titik_Ko_1": 101.43859399999999,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 15,
+                "Skor_air_d": 4,
+                "Ph_air": 7.7999999999999998,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1MsZ6nt_wNkT4ARw6dMhZ4a0CDWE-iWaZ"
+            },
+            "geometry": {
+                "x": 0.53151000000000004,
+                "y": 101.43859399999999
+            }
+        },
+        {
+            "attributes": {
+                "FID": 68,
+                "OBJECTID": 69,
+                "Timestamp": "11/15/2025 13:57:16",
+                "Titik_Koor": 0.53075600000000001,
+                "Titik_Ko_1": 101.410229,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 5,
+                "Skor_air_d": 4,
+                "Ph_air": 6,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1muPkxxhV-ai8VkDhoW5-4lbCkBCAPPa9"
+            },
+            "geometry": {
+                "x": 0.53075600000000001,
+                "y": 101.410229
+            }
+        },
+        {
+            "attributes": {
+                "FID": 69,
+                "OBJECTID": 70,
+                "Timestamp": "11/15/2025 16:41:39",
+                "Titik_Koor": 0.53215500000000004,
+                "Titik_Ko_1": 101.40960099999999,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 5,
+                "Skor_air_d": 2,
+                "Ph_air": 8.3900000000000006,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1FZ-XcGIJg8n1cJ3py-9fbFovEFWB-OlJ"
+            },
+            "geometry": {
+                "x": 0.53215500000000004,
+                "y": 101.40960099999999
+            }
+        },
+        {
+            "attributes": {
+                "FID": 70,
+                "OBJECTID": 71,
+                "Timestamp": "11/15/2025 19:35:17",
+                "Titik_Koor": 0.54327300000000001,
+                "Titik_Ko_1": 101.412541,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 2,
+                "Skor_air_d": 4,
+                "Ph_air": 5.7000000000000002,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1v-K_MlgnaIpN2PvBVILqfHaGX0mSPVKv"
+            },
+            "geometry": {
+                "x": 0.54327300000000001,
+                "y": 101.412541
+            }
+        },
+        {
+            "attributes": {
+                "FID": 71,
+                "OBJECTID": 72,
+                "Timestamp": "11/15/2025 19:36:46",
+                "Titik_Koor": 0.54533299999999996,
+                "Titik_Ko_1": 101.41326599999999,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 11,
+                "Skor_air_d": 5,
+                "Ph_air": 4.6799999999999997,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1hZ94BzlFjTfZh6gskPgl5xDWHYVgWzEU"
+            },
+            "geometry": {
+                "x": 0.54533299999999996,
+                "y": 101.41326599999999
+            }
+        },
+        {
+            "attributes": {
+                "FID": 72,
+                "OBJECTID": 73,
+                "Timestamp": "11/15/2025 19:38:19",
+                "Titik_Koor": 0.54534000000000005,
+                "Titik_Ko_1": 101.41321600000001,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 10,
+                "Skor_air_d": 5,
+                "Ph_air": 4.7400000000000002,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1qe3yQIJRBPYB2qsFA0Yx1x2nWNU2TUQD"
+            },
+            "geometry": {
+                "x": 0.54534000000000005,
+                "y": 101.41321600000001
+            }
+        },
+        {
+            "attributes": {
+                "FID": 73,
+                "OBJECTID": 74,
+                "Timestamp": "11/15/2025 19:58:39",
+                "Titik_Koor": 0.53798400000000002,
+                "Titik_Ko_1": 101.42205300000001,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 15,
+                "Skor_air_d": 4,
+                "Ph_air": 5.54,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1paDmaH37pxxto2Sh2eDJTkFQIFqtny_s"
+            },
+            "geometry": {
+                "x": 0.53798400000000002,
+                "y": 101.42205300000001
+            }
+        },
+        {
+            "attributes": {
+                "FID": 74,
+                "OBJECTID": 75,
+                "Timestamp": "11/15/2025 22:59:55",
+                "Titik_Koor": 0.54033500000000001,
+                "Titik_Ko_1": 101.421723,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 10,
+                "Skor_air_d": 4,
+                "Ph_air": 6.04,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1bmkbUg194_YoWLsGmiHleiMcpnwHx1oS"
+            },
+            "geometry": {
+                "x": 0.54033500000000001,
+                "y": 101.421723
+            }
+        },
+        {
+            "attributes": {
+                "FID": 75,
+                "OBJECTID": 76,
+                "Timestamp": "11/16/2025 8:10:36",
+                "Titik_Koor": 0.54345500000000002,
+                "Titik_Ko_1": 101.417648,
+                "Jenis_Sumb": "Sumur Gali",
+                "Jara_ke_se": 5,
+                "Skor_air_d": 4,
+                "Ph_air": 7.6399999999999997,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=196x3WGxEiKzcuM0yJsDFfMzb9Hzp59iq"
+            },
+            "geometry": {
+                "x": 0.54345500000000002,
+                "y": 101.417648
+            }
+        },
+        {
+            "attributes": {
+                "FID": 76,
+                "OBJECTID": 77,
+                "Timestamp": "11/16/2025 8:14:09",
+                "Titik_Koor": 0.51805900000000005,
+                "Titik_Ko_1": 101.40641599999999,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 10,
+                "Skor_air_d": 4,
+                "Ph_air": 7.7000000000000002,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1SC_Sto9NgDVenuOg_WqZNaXM7gCsmpU8"
+            },
+            "geometry": {
+                "x": 0.51805900000000005,
+                "y": 101.40641599999999
+            }
+        },
+        {
+            "attributes": {
+                "FID": 77,
+                "OBJECTID": 78,
+                "Timestamp": "11/16/2025 8:16:43",
+                "Titik_Koor": 0.46607300000000002,
+                "Titik_Ko_1": 101.409486,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 12,
+                "Skor_air_d": 5,
+                "Ph_air": 7.6799999999999997,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1KwQam7U5p-cHlVrncZoq9D08QPwjhnwM"
+            },
+            "geometry": {
+                "x": 0.46607300000000002,
+                "y": 101.409486
+            }
+        },
+        {
+            "attributes": {
+                "FID": 78,
+                "OBJECTID": 79,
+                "Timestamp": "11/16/2025 10:44:58",
+                "Titik_Koor": 0.55652800000000002,
+                "Titik_Ko_1": 101.40137199999999,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 100,
+                "Skor_air_d": 3,
+                "Ph_air": 9.3200000000000003,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1mJO0rOB2jDcBHHeQFaUzqeRb6ci9Yfyo"
+            },
+            "geometry": {
+                "x": 0.55652800000000002,
+                "y": 101.40137199999999
+            }
+        },
+        {
+            "attributes": {
+                "FID": 79,
+                "OBJECTID": 80,
+                "Timestamp": "11/16/2025 10:47:37",
+                "Titik_Koor": 0.54616399999999998,
+                "Titik_Ko_1": 101.409598,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 8,
+                "Skor_air_d": 3,
+                "Ph_air": 7.9900000000000002,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1tvwMKfyLw2kt61xQ0z-IVnSdEMhLcF_d"
+            },
+            "geometry": {
+                "x": 0.54616399999999998,
+                "y": 101.409598
+            }
+        },
+        {
+            "attributes": {
+                "FID": 80,
+                "OBJECTID": 81,
+                "Timestamp": "11/16/2025 11:05:06",
+                "Titik_Koor": 0.54071400000000003,
+                "Titik_Ko_1": 101.414524,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 40,
+                "Skor_air_d": 5,
+                "Ph_air": 8.3900000000000006,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1U38m8oKwYL3JOaGceQkIxOryBXiCwF7Q"
+            },
+            "geometry": {
+                "x": 0.54071400000000003,
+                "y": 101.414524
+            }
+        },
+        {
+            "attributes": {
+                "FID": 81,
+                "OBJECTID": 82,
+                "Timestamp": "11/16/2025 11:07:37",
+                "Titik_Koor": 0.54742199999999996,
+                "Titik_Ko_1": 101.405592,
+                "Jenis_Sumb": "PDAM",
+                "Jara_ke_se": 15,
+                "Skor_air_d": 4,
+                "Ph_air": 8.3300000000000001,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1ApH_iEw21JyGeKYnQO-7toqbRwg60jHR"
+            },
+            "geometry": {
+                "x": 0.54742199999999996,
+                "y": 101.405592
+            }
+        },
+        {
+            "attributes": {
+                "FID": 82,
+                "OBJECTID": 83,
+                "Timestamp": "11/16/2025 11:13:52",
+                "Titik_Koor": 0.54736600000000002,
+                "Titik_Ko_1": 101.405625,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 10,
+                "Skor_air_d": 4,
+                "Ph_air": 8,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1Uu4llv2NBX7MQOM5Vnsw8FIeVuRvtuRV"
+            },
+            "geometry": {
+                "x": 0.54736600000000002,
+                "y": 101.405625
+            }
+        },
+        {
+            "attributes": {
+                "FID": 83,
+                "OBJECTID": 84,
+                "Timestamp": "11/16/2025 11:15:17",
+                "Titik_Koor": 0.54734300000000002,
+                "Titik_Ko_1": 101.405619,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 12,
+                "Skor_air_d": 4,
+                "Ph_air": 8.0199999999999996,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1QmJoirciL_DPG0QbfnngfD4ciYNv0NjM"
+            },
+            "geometry": {
+                "x": 0.54734300000000002,
+                "y": 101.405619
+            }
+        },
+        {
+            "attributes": {
+                "FID": 84,
+                "OBJECTID": 85,
+                "Timestamp": "11/16/2025 11:17:27",
+                "Titik_Koor": 0.54743200000000003,
+                "Titik_Ko_1": 101.40559399999999,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 9,
+                "Skor_air_d": 4,
+                "Ph_air": 7.9299999999999997,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1PcXjomZb7noom4fl4j3to36WvkJX291_"
+            },
+            "geometry": {
+                "x": 0.54743200000000003,
+                "y": 101.40559399999999
+            }
+        },
+        {
+            "attributes": {
+                "FID": 85,
+                "OBJECTID": 86,
+                "Timestamp": "11/16/2025 11:36:50",
+                "Titik_Koor": 0.54750600000000005,
+                "Titik_Ko_1": 101.405641,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 13,
+                "Skor_air_d": 4,
+                "Ph_air": 8.1199999999999992,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1UbS5xQIA-O7dmTdxd6mkM-LpeKxNv_q2"
+            },
+            "geometry": {
+                "x": 0.54750600000000005,
+                "y": 101.405641
+            }
+        },
+        {
+            "attributes": {
+                "FID": 86,
+                "OBJECTID": 87,
+                "Timestamp": "11/16/2025 11:39:18",
+                "Titik_Koor": 0.54675200000000002,
+                "Titik_Ko_1": 101.406009,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 15,
+                "Skor_air_d": 4,
+                "Ph_air": 8.0199999999999996,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1de3-qdcrvCtS_XmUotRMq6QM8N4oDMh_"
+            },
+            "geometry": {
+                "x": 0.54675200000000002,
+                "y": 101.406009
+            }
+        },
+        {
+            "attributes": {
+                "FID": 87,
+                "OBJECTID": 88,
+                "Timestamp": "11/16/2025 11:48:18",
+                "Titik_Koor": 0.54674199999999995,
+                "Titik_Ko_1": 101.406165,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 15,
+                "Skor_air_d": 4,
+                "Ph_air": 8.3599999999999994,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1duf0VDsdaLKaLGEbTj2GU5eoIWINFLu7"
+            },
+            "geometry": {
+                "x": 0.54674199999999995,
+                "y": 101.406165
+            }
+        },
+        {
+            "attributes": {
+                "FID": 88,
+                "OBJECTID": 89,
+                "Timestamp": "11/16/2025 11:51:20",
+                "Titik_Koor": 0.54708599999999996,
+                "Titik_Ko_1": 101.406144,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 13,
+                "Skor_air_d": 4,
+                "Ph_air": 7.8799999999999999,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1VrK75dv9GyiR1CpUTJyg6MySwUw5WByc"
+            },
+            "geometry": {
+                "x": 0.54708599999999996,
+                "y": 101.406144
+            }
+        },
+        {
+            "attributes": {
+                "FID": 89,
+                "OBJECTID": 90,
+                "Timestamp": "11/16/2025 12:08:51",
+                "Titik_Koor": 0.54694299999999996,
+                "Titik_Ko_1": 101.405888,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 30,
+                "Skor_air_d": 3,
+                "Ph_air": 7.5300000000000002,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1J1OCNtZokn7JxiGa2eiwIg70yxvll3yF"
+            },
+            "geometry": {
+                "x": 0.54694299999999996,
+                "y": 101.405888
+            }
+        },
+        {
+            "attributes": {
+                "FID": 90,
+                "OBJECTID": 91,
+                "Timestamp": "11/16/2025 12:25:58",
+                "Titik_Koor": 0.54715499999999995,
+                "Titik_Ko_1": 101.40585299999999,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 13,
+                "Skor_air_d": 4,
+                "Ph_air": 8.0999999999999996,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1vBh1WB2YxGMtlzUzzFDSjT74YjpITWhm"
+            },
+            "geometry": {
+                "x": 0.54715499999999995,
+                "y": 101.40585299999999
+            }
+        },
+        {
+            "attributes": {
+                "FID": 91,
+                "OBJECTID": 92,
+                "Timestamp": "11/16/2025 12:38:05",
+                "Titik_Koor": 0.51885400000000004,
+                "Titik_Ko_1": 101.396877,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 20,
+                "Skor_air_d": 2,
+                "Ph_air": 5.5,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1tGMoVvCucF6D5xIRasKbkcBawGvrZCv7"
+            },
+            "geometry": {
+                "x": 0.51885400000000004,
+                "y": 101.396877
+            }
+        },
+        {
+            "attributes": {
+                "FID": 92,
+                "OBJECTID": 93,
+                "Timestamp": "11/16/2025 14:46:56",
+                "Titik_Koor": 0.52620199999999995,
+                "Titik_Ko_1": 101.440156,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 15,
+                "Skor_air_d": 5,
+                "Ph_air": 6.4000000000000004,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1zCrTG8X3hhSc5aj4LdTfyNs1MoqgW3Oy"
+            },
+            "geometry": {
+                "x": 0.52620199999999995,
+                "y": 101.440156
+            }
+        },
+        {
+            "attributes": {
+                "FID": 93,
+                "OBJECTID": 94,
+                "Timestamp": "11/16/2025 14:52:50",
+                "Titik_Koor": 0.53839400000000004,
+                "Titik_Ko_1": 101.42134900000001,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 25,
+                "Skor_air_d": 4,
+                "Ph_air": 7.9100000000000001,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1nNQksb1qPIGq8y4lTo1uoZqgldRO7HaN"
+            },
+            "geometry": {
+                "x": 0.53839400000000004,
+                "y": 101.42134900000001
+            }
+        },
+        {
+            "attributes": {
+                "FID": 94,
+                "OBJECTID": 95,
+                "Timestamp": "11/16/2025 14:55:10",
+                "Titik_Koor": 0.53841899999999998,
+                "Titik_Ko_1": 101.421288,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 25,
+                "Skor_air_d": 5,
+                "Ph_air": 8.1099999999999994,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1rTvno2pIDG_8UzEKH95hoXfuFeXdKPIz"
+            },
+            "geometry": {
+                "x": 0.53841899999999998,
+                "y": 101.421288
+            }
+        },
+        {
+            "attributes": {
+                "FID": 95,
+                "OBJECTID": 96,
+                "Timestamp": "11/16/2025 15:10:03",
+                "Titik_Koor": 0.53829000000000005,
+                "Titik_Ko_1": 101.422436,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 10,
+                "Skor_air_d": 3,
+                "Ph_air": 5.8499999999999996,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1X4vCSkpmHRy_nhd_PBomnFoXeLdTjbIo"
+            },
+            "geometry": {
+                "x": 0.53829000000000005,
+                "y": 101.422436
+            }
+        },
+        {
+            "attributes": {
+                "FID": 96,
+                "OBJECTID": 97,
+                "Timestamp": "11/16/2025 15:13:26",
+                "Titik_Koor": 0.538323,
+                "Titik_Ko_1": 101.42306499999999,
+                "Jenis_Sumb": "Sumur Gali",
+                "Jara_ke_se": 8,
+                "Skor_air_d": 3,
+                "Ph_air": 5.5999999999999996,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1UTvdRiSEniuBRG7OITrXvQwObNchMW_C"
+            },
+            "geometry": {
+                "x": 0.538323,
+                "y": 101.42306499999999
+            }
+        },
+        {
+            "attributes": {
+                "FID": 97,
+                "OBJECTID": 98,
+                "Timestamp": "11/16/2025 15:18:52",
+                "Titik_Koor": 0.53870499999999999,
+                "Titik_Ko_1": 101.42371,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 15,
+                "Skor_air_d": 3,
+                "Ph_air": 7.1500000000000004,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1IhbzMeUABxaaDb3keDy57kJCekjW3R1_"
+            },
+            "geometry": {
+                "x": 0.53870499999999999,
+                "y": 101.42371
+            }
+        },
+        {
+            "attributes": {
+                "FID": 98,
+                "OBJECTID": 99,
+                "Timestamp": "11/16/2025 15:20:28",
+                "Titik_Koor": 0.53760799999999997,
+                "Titik_Ko_1": 101.424634,
+                "Jenis_Sumb": "Sumur Gali",
+                "Jara_ke_se": 5,
+                "Skor_air_d": 2,
+                "Ph_air": 4.3499999999999996,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=18Gq9FTVqqCwEHZIOr8vHGfbOfmuqIw2F"
+            },
+            "geometry": {
+                "x": 0.53760799999999997,
+                "y": 101.424634
+            }
+        },
+        {
+            "attributes": {
+                "FID": 99,
+                "OBJECTID": 100,
+                "Timestamp": "11/16/2025 15:22:12",
+                "Titik_Koor": 0.53889100000000001,
+                "Titik_Ko_1": 101.42138300000001,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 30,
+                "Skor_air_d": 5,
+                "Ph_air": 7.2699999999999996,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1w7qp2tnHrqZNbXSefZu-AvA0k9vfPtKV"
+            },
+            "geometry": {
+                "x": 0.53889100000000001,
+                "y": 101.42138300000001
+            }
+        },
+        {
+            "attributes": {
+                "FID": 100,
+                "OBJECTID": 101,
+                "Timestamp": "11/16/2025 15:26:16",
+                "Titik_Koor": 0.53869100000000003,
+                "Titik_Ko_1": 101.42129300000001,
+                "Jenis_Sumb": "Sumur Bor",
+                "Jara_ke_se": 30,
+                "Skor_air_d": 5,
+                "Ph_air": 7.7800000000000002,
+                "Jumlah_ang": 0,
+                "Freuensi_p": "Setiap hari",
+                "Foto_sumbe": "https://drive.google.com/open?id=1T8DdsyhL4-cek_-r3an391dIJKwOWjk1"
+            },
+            "geometry": {
+                "x": 0.53869100000000003,
+                "y": 101.42129300000001
+            }
+        }
+    ]
+}
