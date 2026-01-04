@@ -1,5 +1,8 @@
 # 🗺️ WebGIS Pemetaan Kualitas Air Sumur - Kota Pekanbaru
 
+🌐 **Aplikasi dapat diakses secara online melalui:**  
+👉 https://chairunnasariefm.github.io/WaterMonitor/
+
 ![Banner Project](assets/img/banner.png)
 
 > **Proyek Ujian Akhir Semester (UAS)**
