@@ -10,7 +10,7 @@
         rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="css/map.css">
-      <link rel="icon" type="image/x-icon" href="assets/img/iconWebsite.png">
+    <link rel="icon" type="image/x-icon" href="assets/img/iconWebsite.png">
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
@@ -79,15 +79,16 @@
 
         <div class="toggle-group">
             <div class="toggle-header">
-                <span>💧 Kualitas Fisik</span>
+                <span>🚽 Jarak Septic Tank</span>
                 <label class="switch">
-                    <input type="checkbox" onchange="toggleLayer('fisik', this)">
+                    <input type="checkbox" onchange="toggleLayer('septic', this)">
                     <span class="slider"></span>
                 </label>
             </div>
             <div class="legend">
-                <div class="legend-item"><span class="dot bg-blue"></span> Jernih</div>
-                <div class="legend-item"><span class="dot bg-orange"></span> Keruh/Bau</div>
+                <div class="legend-item"><span class="dot" style="background: #22c55e;"></span> Aman (>10m)</div>
+                <div class="legend-item"><span class="dot" style="background: #ef4444;"></span> Bahaya (<10m)
+                </div>
             </div>
         </div>
 
